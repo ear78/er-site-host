@@ -17,10 +17,10 @@ angular.module('myApp')
                 text: 'This site was built from the ground up for demonstration of my coding skills using HTML, CSS, Javascript, Angular, Jquery, Sketch'
             },
             {
-                img: './img/Beoplay802x694.jpg',
+                img: './img/beoplayweb1.jpg',
                 name: 'Beoplay Site Clone',
                 tech: 'HTML, CSS, Javascript, Angular, Jquery, Gulp, Sass, Node.js',
-                images: ['./img/Beoplay802x694.jpg', './img/beoplayweb2.jpg', './img/beoplayweb3.jpg', './img/beoplayweb4.jpg'],
+                images: ['./img/beoplayweb1.jpg', './img/beoplayweb2.jpg', './img/beoplayweb3.jpg', './img/beoplayweb4.jpg'],
                 text: 'This site was built from the ground up for demonstration of my coding skills using HTML, CSS, Javascript, Angular, Jquery, Gulp, Sass, Node.js, Affinity Suite, Heroku'
             },
             {
