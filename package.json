@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/ear78/er-site-host#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.0.0"
   }
 }
