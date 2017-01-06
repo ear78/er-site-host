@@ -1,0 +1,219 @@
+.form-wrap {
+    margin: 0px auto 70px;
+    max-width: 750px;
+}
+
+.contact-form h2 {
+  font-size: 2.125em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+  transition: all .2s ease;
+  font-weight: 200;
+  font-family: $montserrat;
+}
+
+.contact-form .contact-statement {
+    font-size: .7em;
+    text-transform: uppercase;
+    color: $lightgray2;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 40px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.contact-form p {
+  margin-bottom: 10px;
+}
+
+.top-info-box-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.top-info-box-container .info-box {
+  width: 49%;
+}
+
+.top-info-box-container .info-box:nth-child(2){
+  margin-left: 2%;
+}
+
+.contact-form label {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.75em;
+}
+
+.contact-form .info-box {
+  margin-bottom: 20px;
+}
+
+.contact-form .info-box p {
+  margin: 10px 0;
+}
+
+.hide-required-message {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.show-required-message {
+  color: red;
+  display: block;
+  margin-top: 15px;
+  opacity: 1;
+  transition: opacity .9s ease;
+}
+
+.contact-form .required-styles input,
+.contact-form .required-styles textarea {
+  border: 1px solid red;
+  background-color: white;
+  transition: .3s all ease;
+}
+
+.contact-form input {
+  padding: 15px 10px;
+  border: 1px solid lightgrey;
+  background: #f2f2f2;
+  border-radius: 2px;
+  color: #262626;
+  font-size: .9em;
+  font-weight:100;
+  display: block;
+  width: 100%;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border: 1px solid $seagreen;
+}
+
+.contact-form textarea {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  background-color: #f2f2f2;
+}
+
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid $seagreen;
+}
+
+.contact-form button {
+  background: $darkblack;
+  border: 1px solid $darkblack;
+  padding: 13px 25px;
+  color: $white;
+  text-transform: uppercase;
+  transition: all .1s ease;
+}
+
+/* Sweep To Top */
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: $darkblack;
+  outline: none;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-container {
+  width: 100%;
+  min-height: 75px;
+  background: #262626;
+  color: #fff;
+}
+
+.social-border {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 3%;
+}
+
+.social-border svg {
+  width: 45px;
+}
+
+.social-border p {
+  font-size: .6em;
+  text-transform: uppercase;
+  color: lightgrey;
+  line-height: 1.5;
+}
+
+.social-border i {
+  margin: 0 3px;
+}
+
+.logo-container {
+  text-align: center;
+  padding: 15px 0;
+  background: #fff;
+  background: #f2f2f2;
+  min-height: 125px;
+}
+
+.form-wrap .back {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: .75em;
+  color: #262626;
+  text-align: center;
+  padding: 5%;
+}
+
+@media (min-width: 425px) {
+  .contact-form h2 {
+    font-size: 2.75em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .social-border {
+    padding: 5% 4% 7%;
+  }
+}

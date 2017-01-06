@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 275 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-24.2618,-165.839)">
+        <g id="ear-logo1white" transform="matrix(1,0,0,1,-304.001,0)">
+            <path d="M465.674,173.339L595.585,248.343L595.585,398.352L465.674,473.356L335.763,398.352L335.763,248.343L465.674,173.339Z" style="fill:none;stroke:white;stroke-width:15px;"/>
+            <g transform="matrix(5.03807,0,0,5.03807,-1823.19,-1301.18)">
+                <text x="434.305px" y="327.503px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:14.291px;fill:none;">&lt;</text>
+                <text x="434.305px" y="327.503px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:14.291px;fill:white;">&lt;</text>
+            </g>
+            <g transform="matrix(0.790321,0,0,0.790321,81.5568,66.6987)">
+                <path d="M486.027,300L510.767,349.48L461.287,349.48L486.027,300Z" style="fill:none;stroke:white;stroke-width:2.53px;"/>
+            </g>
+            <g transform="matrix(1.15558,0,0,1.15558,-105.145,-107.259)">
+                <text x="441.521px" y="390.045px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:48px;fill:none;">E</text>
+                <text x="441.521px" y="390.045px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:48px;fill:white;">E</text>
+            </g>
+            <g transform="matrix(1.17397,0,0,1.17397,-68.1184,-140.047)">
+                <text x="472.893px" y="412.402px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:48px;fill:none;">R</text>
+                <text x="472.893px" y="412.402px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:48px;fill:white;">R</text>
+            </g>
+            <g transform="matrix(1.82587,0,0,1.82587,-444.525,-238.651)">
+                <text x="532.79px" y="322.428px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:39.433px;fill:none;">&gt;</text>
+                <text x="532.79px" y="322.428px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:39.433px;fill:white;">&gt;</text>
+            </g>
+        </g>
+    </g>
+</svg>

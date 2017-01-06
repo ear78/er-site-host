@@ -1,0 +1,120 @@
+/*
+
+FONTS TO CHOOSE
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+// @import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans:200|Open+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans:200');
+
+//// SASS COLOR VARIABLES /////
+$darkgray: #383838;
+$seagreen: lightseagreen;
+$black: #262626;
+$darkblack: #101010;
+$lightgray: #d3d3d3;
+$lightgray2: #aeb0b3;
+$white: #fff;
+$bone: #f7f7f7;
+
+//// SASS FONTS ///////////////
+$montserrat: 'montserrat', sans-serif;
+$nunito: 'nunito', sans-serif;
+
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    color: $black;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: $montserrat;
+    font-size: 3.25em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2.125em;
+}
+
+h4 {
+    color: $darkgray;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
+}
+
+///// GENERAL STYLES /////////////////////
+
+.main-wrapper {
+    overflow-x: hidden;
+}
+
+.inner-wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.desktop-wide {
+    max-width: 1300px;
+    margin: 90px auto;
+}
+
+.desktop-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.margin-bottom {
+    margin-bottom: 80px;
+}
+
+.padding-top {
+    padding-top: 120px;
+}
+
+.margin-bottom-mid {
+    margin-bottom: 60px;
+}
+
+//// GENERAL ELEMENTS /////////////////////
+
+.page-logo {
+    width: 60px;
+    display: block;
+    margin: 0px auto 15px;
+}
+
+ui-view.ng-enter,
+[ui-view].ng-enter {
+    opacity: 0;
+    transform: translate3d(0px,25px,0);
+    transition: opacity 1.5s, transform .9s;
+}
+
+ui-view.ng-enter-active,
+[ui-view].ng-enter-active {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}

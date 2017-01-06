@@ -1,0 +1,75 @@
+
+
+.about .logo-container {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    background: none;
+    padding: 0;
+    min-height: 0;
+    img {
+        display: initial;
+    }
+
+}
+
+.about .main-title {
+    text-align: center;
+}
+
+.about .subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    color: $lightgray2;
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+.about .content-container {
+    margin-top: 50px;
+}
+
+.about .main-pic {
+    max-width: 100%;
+    margin: 0 10px 10px 0;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.about .story {
+    margin: 10px 0;
+    font-family: montserrat;
+}
+
+.content {
+    line-height: 1.3;
+    min-height: 375px;
+    transition: all .2s;
+    .born {
+        font-family: 'montserrat', sans-serif;
+    }
+}
+
+
+
+
+@media (min-width: 760px){
+    .about .main-pic {
+        width: 450px;
+        max-width: 32%;
+        margin: 20px 10px 10px 0;
+        float: left;
+    }
+
+    .about .subtitle {
+        margin-bottom: 80px;
+    }
+}
+
+@media(min-width: 1000px){
+    .content {
+        line-height: 1.3;
+        min-height: 400px;
+    }
+}

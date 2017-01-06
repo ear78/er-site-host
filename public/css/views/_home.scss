@@ -1,0 +1,334 @@
+.hero-image {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('../../img/clouds1.jpg');
+    background-size: cover;
+    background-position: center -150px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+    position: relative;
+    opacity: 1;
+    .site-title {
+        text-transform: uppercase;
+        font-size: 2.75em;
+        color: #fff;
+        transition: all .2s ease;
+    }
+    .site-subtitle {
+        text-transform: uppercase;
+        font-size: .9em;
+        color: lightseagreen;
+        margin-bottom: 30px;
+    }
+    img {
+        display: none;
+        width: 75px;
+        margin: 50px 0;
+    }
+    p {
+        display: none;
+        color: $white;
+        font-size: .65em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .created-by {
+        display: none;
+        color: $white;
+        text-transform: uppercase;
+        font-size: .65em;
+        position: absolute;
+        right: 25px;
+        bottom: 25px;
+        letter-spacing: 1px;
+        span {
+            border-bottom: 1px solid $white;
+        }
+    }
+    .button {
+        border: 2px solid lightseagreen;
+        padding: 12px 25px;
+        background: none;
+        width: 250px;
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+        color: lightseagreen;
+        text-transform: uppercase;
+    }
+    transition: all .2s ease;
+}
+
+//// FADE TITLE CLASS FOR ANIMATIONS///////////
+
+
+.summary-skills {
+    .elliot-pic-container {
+        text-align: center;
+        margin-bottom: 25px;
+        .elliot-pic {
+            max-width: 160px;
+            border-radius: 50%;
+        }
+    }
+    .skills-icons {
+        text-align: center;
+        .skills-img {
+            height: 55px;
+            margin: 0px 15px 15px;
+            transition: all .1s ease;
+        }
+        .skills-img:hover {
+            transform: scale(1.1);
+        }
+    }
+    .summary-content {
+        text-align: center;
+        .hi {
+            font-family: $montserrat;
+            color: $darkblack;
+            font-size: 1.35em;
+            margin: 20px;
+        }
+    }
+    .section-titles {
+        text-align: center;
+    }
+    .skills-list {
+        display: flex;
+        justify-content: space-around;
+        min-height: 175px;
+        .box-left,
+        .box-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        ul {
+            font-weight: 600;
+        }
+    }
+}
+
+
+////////////////////////////////////////////
+//// PROJECTS SECTION //////////////////////
+///////////////////////////////////////////
+
+.projects-container {
+    margin-bottom: 80px;
+}
+
+.projects-banner-image {
+    background: url('../../img/beachpic1.jpg');
+    background-position: 50% -75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 30px;
+    transition: all .2s ease;
+    .logos {
+        width: 95px;
+    }
+    h2 {
+        font-family: $montserrat;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+    .sub-title {
+        font-size: 1em;
+        text-transform: uppercase;
+        font-family: $montserrat;
+        margin-bottom: 5px;
+    }
+    .text {
+        text-transform: uppercase;
+        font-size: .7em;
+        width: 60%;
+        text-align: center;
+    }
+
+}
+
+
+/////////////////////////////////////////////
+//// GET IN CONTACT SECTION /////////////////
+////////////////////////////////////////////
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .email-icon {
+        margin-bottom: 15px;
+        img {
+            width: 45px;
+        }
+    }
+    .contact-title {
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 1em;
+        color: #262626;
+    }
+    p {
+        max-width: 330px;
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-size: .75em;
+        color: #737373;
+    }
+    a {
+        width: 70%;
+        margin-bottom: 70px;
+        .contact-button {
+            width: 100%;
+            background: $darkblack;
+            padding: 13px;
+            color: #fff;
+            border-radius: 2px;
+            text-transform: uppercase;
+            font-size: .9em;
+            text-align: center;
+        }
+    }
+}
+
+
+
+/////////////////////////////////////////////
+//// MEDIA QUERIES /////////////////
+////////////////////////////////////////////
+
+@media (min-width: 425px){
+    .hero-image {
+        .site-title {
+            text-transform: uppercase;
+            font-size: 3.25em;
+        }
+    }
+}
+@media(min-width: 760px) {
+    .hero-image {
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
+        url('../../img/clouds1.jpg');
+        background-size: cover;
+        background-position: center -215px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        justify-content: flex-end;
+        align-items: center;
+        min-height: 510px;
+        .site-title {
+            font-size: 4.25em;
+        }
+        .site-subtitle {
+            margin-bottom: 0;
+        }
+        img {
+            margin: 75px 0 20px;
+            display: inline-block;
+        }
+        p {
+            display: block;
+            color: $white;
+        }
+        .created-by {
+            display: inline-block;
+        }
+    }
+
+    .summary-skills {
+        .skills-list {
+            .box-left,
+            .box-right {
+                justify-content: space-around;
+                width: 50%;
+                flex-direction: row;
+                li {
+                    margin: 5px 0px;
+                }
+            }
+        }
+        .elliot-pic-container {
+            margin-bottom: 30px;
+        }
+        .skills-icons {
+            .skills-img {
+                height: 60px;
+                margin: 0px 2% 15px;
+            }
+        }
+    }
+
+    .summary-content {
+        max-width: 550px;
+        margin: 0 auto 80px;
+    }
+
+    .contact-container {
+        a {
+            width: 400px;
+        }
+    }
+
+    .projects-banner-image {
+        h2 {
+
+            font-size: 4.125em;
+        }
+    }
+
+    .projects-banner-image {
+        margin-bottom: 20px;
+        .sub-title {
+            font-size: 1em;
+        }
+        .text {
+            width: 50%;
+        }
+    }
+
+
+}
+
+
+
+
+@media(min-width: 1000px) {
+    .hero-image {
+        .site-title {
+            font-size: 4.75em;
+        }
+        img {
+            width: 80px;
+        }
+    }
+    .projects-banner-image {
+        h2 {
+            font-size: 4.75em;
+        }
+    }
+    .summary-skills {
+        .skills-list {
+            max-width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}

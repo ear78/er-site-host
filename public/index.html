@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elliot Richardson Front End Developer</title>
+
+        <!-- ICONS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- CSS BUILD SASS -->
+        <link rel="stylesheet" type="text/css" href="./build/css/main.css">
+    </head>
+
+    <body ng-controller="MainCtrl" ng-cloak>
+        <main class="main-wrapper">
+
+
+            <!-- MOBILE HEADER MENU  WITH ONSCROLL DIRECTIVE-->
+            <header class="mobile-main-header-container" menu-scroll>
+                <div class="main-logo-container">
+                    <a ui-sref="home">
+                        <img ng-src="./img/earlogo1white.svg"/>
+                    </a>
+                </div>
+                <img class="hamburger" ng-src="./img/ic_menu_white_24px.svg" ng-click="openMobileMenu()"/>
+            </header>
+
+            <!-- MOBILE SIDEMENU -->
+            <mobile-menu-directive></mobile-menu-directive>
+
+            <!-- DESKTOP HEADER MENU -->
+            <header ng-show="$state.current.name === 'home'" class="main-header-container" menu-scroll>
+                <div class="main-logo-container">
+                    <!-- <img ng-src="./img/earlogo1white.svg"/> -->
+                </div>
+                <nav class="main-nav-container">
+                    <a ui-sref="home"><li>Home</li></a>
+                    <a ui-sref="about"><li>About</li></a>
+
+                    <!-- DIRECTIVE FOR SCROLL TO EVENT PROJECT SECTION -->
+                    <a ui-sref="resume"><li>Resume</li></a>
+                    <a href="mailto:ear78@aol.com"><li>Contact</li></a>
+                </nav>
+            </header>
+
+            <!-- ALTERNATE HEADER FOR PAGES THAT HAVE WHITE BACKGROUND -->
+            <desktop-header-alt-component ng-hide="$state.current.name === 'home'"></desktop-header-alt-component>
+
+            <!-- UI VIEW FOR ANGULAR -->
+            <div ui-view autoscroll="true" ></div>
+
+            <!-- CONTACT SECTION DIRECTIVE -->
+            <contact-section-directive ng-hide="$state.current.name === 'contact'"></contact-section-directive>
+
+            <!-- FOOTER SECTION -->
+            <footer>
+                <p class="built">Built By Hand in Nashville, Tn by Elliot Richardson</p>
+                <div class="main-logo-container">
+                    <a ui-sref="home">
+                        <img ng-src="./img/earlogo1white.svg"/>
+                    </a>
+                </div>
+                <ul class="site-map">
+                    <a href="#">About</a>
+                    <a href="#">Portfolio</a>
+                    <a ui-sref="contact">Contact</a>
+                </ul>
+                <ul class="social-icons">
+                    <a href="https://www.linkedin.com/in/elliot-richardson" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/elliot.richardson/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/mixermanelliot" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/ear78" target="_blank"><i class="fa fa-github"></i></a>
+                </ul>
+                <a class="site-link" ui-sref="home">www.elliotrichardson.com</p>
+                <a class="to-top" click-scroll-directive><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+            </footer>
+
+
+        </main>
+
+
+        <!-- CDN SCRIPTS JQUERY, ANGULAR, UI-ROUTER, ANGULAR ANIMATE -->
+        <script src="https://code.jquery.com/jquery-2.2.4.js"
+          integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+          crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.js"></script>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="./app.js"></script>
+        <script src="./js/controllers/MainCtrl.js"></script>
+        <script src="./js/controllers/homeCtrl.js"></script>
+        <script src="./js/service/mainService.js"></script>
+        <script src="./js/directives/mobileMenuDirective.js"></script>
+        <script src="./js/directives/menuScrollDirective.js"></script>
+        <script src="./js/directives/portfolioDirective.js"></script>
+        <script src="./js/directives/portfolioScrollDirective.js"></script>
+        <script src="./js/directives/contactSectionDirective.js"></script>
+        <script src="./js/directives/portfolioDropDirective.js"></script>
+        <script src="./js/directives/socialIconComponent.js"></script>
+        <script src="./js/directives/desktopHeaderAltComponent.js"></script>
+        <script src="./js/directives/clickScrollDirective.js"></script>
+        <script src="./js/directives/titleFadeDirective.js"></script>
+        <script src="./js/directives/portfolioModalDirective.js"></script>
+    </body>
+</html>

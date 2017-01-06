@@ -1,0 +1,94 @@
+/////////////////////////////////////////////
+//// FOOTER SECTION /////////////////////////
+////////////////////////////////////////////
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    min-height: 430px;
+    width: 100%;
+    background: $darkblack;
+    .built {
+        color: #fff;
+        margin-bottom: 40px;
+        font-size: .75em;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .main-logo-container {
+        margin-bottom: 50px;
+        img {
+            width: 100px;
+        }
+    }
+    .site-map {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a {
+            margin: 10px 0px;
+            text-transform: uppercase;
+            font-size: .9em;
+            transition: all .2s;
+        }
+    }
+    .to-top {
+        width: 40px;
+        height: 40px;
+        border: 2px solid $darkgray;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 2.3;
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+        transition: all .3s ease;
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+        a {
+            width: 55px;
+            height: 55px;
+            border: 2px solid $darkgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 15px;
+            transition: all .3s ease;
+        }
+        i {
+            font-size: 20px;
+        }
+    }
+    .site-link {
+        color: $seagreen;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: .75em;
+        letter-spacing: 2px;
+    }
+}
+
+//// HOVER LINKS FOR FOOTER ////
+footer .to-top:hover,
+footer .social-icons a:hover {
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+footer .site-map a:hover {
+    color: $lightgray;
+}

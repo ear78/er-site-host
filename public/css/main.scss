@@ -1,0 +1,13 @@
+@import "./base/reset";
+@import "./base/mainStyles";
+@import "./views/home";
+@import "./header";
+@import "./footer";
+@import "./views/resume";
+@import "./views/contact";
+@import "./views/about";
+@import "./directives/mobileMenuDirective";
+@import "./directives/portfolioDirective";
+@import "./directives/socialIconComponent";
+@import "./directives/logoComponent";
+@import "./directives/desktopHeaderAltComponent";

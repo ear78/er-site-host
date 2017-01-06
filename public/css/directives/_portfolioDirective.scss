@@ -1,0 +1,353 @@
+.portfolio-container {
+    display: block;
+    transform: translate3d(-1500px, 0,0);
+    transition: all 1.5s ease;
+    .project-box {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 8px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        opacity: .7;
+        cursor: pointer;
+        transform: scale(1.01);
+    }
+    .project-thumb {
+        margin-right: 8%;
+        img {
+            width: 55px;
+            border-radius: 5%;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+            border: 1px solid lightgray;
+        }
+    }
+    .project-name {
+        font-size: .65em;
+        color: $black;
+        text-transform: uppercase;
+        transition: all .2s;
+    }
+    .project-plus-icon {
+        position: absolute;
+        right: 30px;
+        font-size: 24px;
+        line-height: .4;
+    }
+}
+
+.portfolio-slide {
+    transform: translate3d(0,0,0);
+}
+
+//////////////////////////////////////////////
+//// DESKTOP PORTFOLIO SECTION ///////////////
+//////////////////////////////////////////////
+
+.desktop-portfolio-container {
+    display: none;
+    justify-content: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    .project-box {
+        margin: 0 1%;
+        width: 20%;
+        padding: 5px;
+        border: 1px solid lightgray;
+        img {
+            max-width: 100%;
+        }
+        p {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+
+//////////////////////////////////////////////
+//// PROJECTS PICTURE GRID SECTION ///////////
+/////////////////////////////////////////////
+
+.project-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    .project-container1 {
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+        // transition: transform .2s ease;
+    }
+    // .project-container1:hover {
+    //     transform: scale(1.02);
+    // }
+    .project-container2 {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box1 {
+        position: relative;
+        background: $darkblack;
+        width: 100%;
+        margin: 5%;
+        box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+        transition: all .2s ease;
+        .img-thumb {
+            max-width: 100%;
+            display: block;
+            opacity: .2;
+            // transition: opacity .5s ease;
+        }
+        .img-thumb-fade {
+            opacity: .5;
+        }
+        //// HIDDEN UNTIL HOVER ///////////
+        .project-info-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            padding: 10px;
+            min-height: 75px;
+            opacity: 1;
+            min-height: 147px;
+            transition: opacity .5s ease;
+            .project-info-left {
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 600;
+                line-height: 1.9;
+                margin-bottom: 15px;
+                p {
+                    color: $white;
+                    font-family: $montserrat;
+                    font-size: .9em;
+                }
+                .tech {
+                    font-size: .75em;
+                    font-family: $nunito;
+                    font-weight: 200;
+                    color: $lightgray;
+                    text-transform: none;
+                }
+            }
+            .project-info-logo {
+                padding-left: 5px;
+                img {
+                    width: 32px;
+                }
+            }
+        }
+        ///// ACTIVE CLASS FOR HOVER OVER ////////////
+        .info-active {
+            opacity: 1;
+        }
+    }
+    .box1:hover {
+        cursor: pointer;
+        opacity: .9;
+        transform: scale(1.02);
+    }
+
+
+    .box2 {
+        position: relative;
+        background: $darkblack;
+        margin: 1%;
+        box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        //// HIDDEN UNTIL HOVER ///////////
+        .project-info-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            min-height: 80px;
+            font-size: .75em;
+            padding: 10px 15px;
+            background: #fff;
+            opacity: 0;
+            transition: all .5s ease;
+            .project-info-left {
+                text-transform: uppercase;
+                font-weight: 600;
+                line-height: 1.9;
+                .tech {
+                    color: $lightgray;
+                    text-transform: none;
+                }
+            }
+            .project-info-logo {
+                img {
+                    width: 32px;
+                }
+            }
+        }
+        //// ACTIVE CLASS FOR HOVER OVER //////
+        .info-active {
+            opacity: 1;
+        }
+    }
+}
+
+.project-drop {
+    display: none;
+    border-bottom: 1px solid $lightgray;
+    padding-bottom: 10px;
+    text-align: center;
+    img {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+        max-width: 85%;
+    }
+}
+
+.portfolio-modal {
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: $black;
+    background-color: rgba(0,0,0,0.9);
+    overflow: hidden;
+    z-index: 10;
+    .tech-used {
+        color: white;
+        font-family: montserrat;
+        text-transform: uppercase;
+        font-size: 1.25em;
+        text-align: center;
+    }
+    .portfolio-text {
+        color: white;
+        width: 60%;
+        max-width: 775px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: .9em;
+    }
+    .arrow-left {
+        position: absolute;
+        width: 40px;
+        top: 40%;
+        left: 0%;
+        transition: left .2s;
+    }
+    .arrow-right {
+        position: absolute;
+        width: 40px;
+        top: 40%;
+        right: 0%;
+        transition: right .2s;
+    }
+}
+
+.portfolio-box {
+    text-align: center;
+    padding-top: 15px;
+    background: white;
+    width: 725px;
+    max-width: 90%;
+    margin: 40px auto 20px;
+    padding-bottom: 15px;
+    transition: margin .2s;
+    border-radius: 3px;
+    img {
+        box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+        width: 400px;
+        max-width: 42%;
+        border-radius: 3px;
+    }
+}
+
+@media(min-width: 425px){
+    .project-drop {
+        img {
+            max-width: 45%;
+        }
+    }
+    .portfolio-container {
+        .project-name {
+            font-size: .75em;
+        }
+    }
+
+
+}
+
+@media(min-width: 760px){
+    .portfolio-container {
+        display: none;
+    }
+
+    .desktop-portfolio-container {
+        display: flex;
+    }
+}
+
+@media(min-width: 1000px){
+    .project-row {
+        .box1 {
+            .project-info-container {
+                .project-info-left {
+                    p {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+    .portfolio-modal {
+        .arrow-left {
+
+            left: 6%;
+        }
+        .arrow-right {
+
+            right: 6%;
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .portfolio-modal {
+        .arrow-left {
+
+            left: 9%;
+        }
+        .arrow-right {
+
+            right: 9%;
+        }
+    }
+}
+
+@media(min-width:1400px){
+    .portfolio-modal {
+        .arrow-left {
+
+            left: 11%;
+        }
+        .arrow-right {
+
+            right: 11%;
+        }
+    }
+}

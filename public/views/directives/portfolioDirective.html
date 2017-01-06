@@ -1,0 +1,53 @@
+<!-- PORTFOLIO SCROLL DIRECTIVE ATTRIBUTE -->
+<div portfolio-scroll-directive  class="portfolio-container">
+    <div ng-repeat="data in portfolio">
+        <div class="project-box" portfolio-drop-directive>
+            <div class="project-thumb">
+                <img ng-src='{{ data.img }}' />
+            </div>
+            <p class="project-name">{{ data.name }}</p>
+            <span class="project-plus-icon">+</span>
+        </div>
+        <div  class="project-drop">
+            <img ng-src='{{ data.images[0] }}' />
+            <img ng-src='{{ data.images[1] }}' />
+            <img ng-src='{{ data.images[2] }}' />
+            <img ng-src='{{ data.images[3] }}' />
+        </div>
+    </div>
+
+</div>
+
+
+<!-- DESKTOP PORTFOLIO SECTION HIDDEN BEFORE 760PX -->
+<div class="desktop-portfolio-container" ng-cloak>
+    <div class="project-row">
+        <div ng-repeat="data in portfolio" class="project-container1">
+             <div class="box1" portfolio-modal-directive>
+                 <img class="img-thumb" ng-src="{{ data.img }}"/>
+                 <div class="project-info-container">
+                     <div class="project-info-left">
+                        <p>{{ data.name }}</p>
+                        <p class="tech">{{ data.tech}}</p>
+                    </div>
+                    <div class="project-info-logo">
+                        <img ng-src="../../img/earlogo2white.svg"/>
+                    </div>
+                 </div>
+             </div>
+             <div class="portfolio-modal" portfolio-modal-directive>
+                <img portfolio-modal-directive class="close-menu" ng-src="img/closebuttonwhite.svg"/>
+                <!-- <img class="arrow-left" ng-src="./img/arrowleft.svg"/>
+                <img class="arrow-right" ng-src="./img/arrowright.svg"/> -->
+                <div class="portfolio-box">
+                    <img ng-src='{{ data.images[0] }}' />
+                    <img ng-src='{{ data.images[1] }}' />
+                    <img ng-src='{{ data.images[2] }}' />
+                    <img ng-src='{{ data.images[3] }}' />
+                </div>
+                <h3 class="tech-used">Technologies Used</h3>
+                <p class="portfolio-text">{{ data.text }}</p>
+             </div>
+        </div>
+    </div>
+</div>

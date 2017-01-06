@@ -1,0 +1,90 @@
+.main-header-container-alt {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+    padding: 0 20px 0 0;
+    transition: all .5s ease;
+    .main-nav-container {
+        display: flex;
+
+        a:nth-child(4){
+            background: $darkblack;
+            color: $white;
+            border: 1px solid $darkblack;
+            transition: all .2s ease;
+        }
+        a:nth-child(4):hover{
+            text-decoration: none;
+            opacity: .9;
+            color: $darkblack;
+            background: $white;
+            border: 1px solid $darkblack;
+            font-weight: 600;
+        }
+        a {
+            color: $darkblack;
+            transition: all .2s ease;
+        }
+        a:after {
+            content: '';
+            display: block;
+            background: $darkblack;
+            height: 1px;
+            width: 0%;
+            margin: 0 auto;
+            transition: all .2s ease;
+        }
+        a:hover:after {
+            content: '';
+            display: block;
+            background: $darkblack;
+            height: 1px;
+            width: 60%;
+            margin: 0 auto;
+        }
+        a:nth-child(4):hover:after {
+            content: '';
+            display: block;
+            background: none;
+            height: 1px;
+            width: 0;
+        }
+        li {
+            font-weight: 600;
+            margin: 12px 20px 9px;
+            font-size: .65em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    }
+    .main-logo-container {
+        img {
+            width: 35px;
+        }
+    }
+}// CLOSING TAG FOR MAIN HEADER CSS
+
+//// ON SCROLL MENU CLASS ADDED //////////
+.scroll-change-alt {
+    background-color: $white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+    transition: all .8s ease;
+}
+
+@media(min-width:760px) {
+    .main-header-container-alt {
+        display: flex;
+    }
+}
+
+@media(min-width: 1200px){
+    .main-header-container-alt {
+        padding-right: 2.5%;
+    }
+}
