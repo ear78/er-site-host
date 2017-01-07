@@ -41,7 +41,7 @@ angular.module('myApp')
                 img: './img/slice8.jpg',
                 name: 'Lyft Site Clone',
                 tech: 'HTML, CSS, Javascript, React, Webpack, Bootstrap',
-                images: ['./img/lyftweb1.jpg', './img/lyftweb2.jpg', './img/lyftweb3.jpg', './img/optimalins802x694.jpg'],
+                images: ['./img/lyftweb1.jpg', './img/lyftweb2.jpg', './img/lyftweb3.jpg', './img/lyftweb4.jpg'],
                 text: 'This site was built from the ground for demonstration of my coding skills using HTML, CSS, Javascript, React, Jquery, Webpack, Bootstrap, Node.js, Google Maps'
             }
         ];
