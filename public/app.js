@@ -16,6 +16,10 @@ angular.module('myApp', ['ui.router', 'ngAnimate'])
                 url: '/resume',
                 templateUrl: '../views/resume.html',
             })
+            .state('design', {
+                url: '/design',
+                templateUrl: '../views/design.html',
+            })
             .state('contact', {
                 url: '/contact',
                 templateUrl: '../views/contact.html',
