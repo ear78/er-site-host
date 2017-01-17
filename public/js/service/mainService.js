@@ -1,6 +1,7 @@
 angular.module('myApp')
     .service('mainService', function(){
 
+        // IMAGES FOR THE PORTFOLIO SECTIONS
         this.portfolio = [
             {
                 img: './img/ersite802x694.jpg',
@@ -46,5 +47,22 @@ angular.module('myApp')
             }
         ];
 
+        //IMAGES FOR SLIDER DIRECTIVE
+        this.images = [{
+            src: './img/ersite802x694.jpg',
+            title: 'Pic 1'
+        },
+        {
+            src: './img/ersitefooterthumb.jpg',
+            title: 'Pic 2'
+        },
+        {
+            src: './img/ersitemobilethumb2.jpg',
+            title: 'Pic 3'
+        },
+        {
+            src: './img/ersiteaboutmobilethumb.jpg',
+            title: 'Pic 4'
+        }]
 
     })

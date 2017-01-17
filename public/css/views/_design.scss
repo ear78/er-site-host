@@ -1,4 +1,21 @@
 
+.slider {
+    position: relative;
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    height: 720px;
+}
+
+.slide {
+    top: 0;
+    left: 0;
+    position: absolute;
+    img {
+        max-width: 100%;
+    }
+}
 .slide-viewer {
     position: relative;
     overflow: hidden;
@@ -12,12 +29,7 @@
     position: relative;
 }
 
-.slide {
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: absolute;
-}
+
 
 .slide-buttons {
     height: 10px;
