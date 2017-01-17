@@ -17,6 +17,7 @@
         display: flex;
         li {
             margin: 2px 10px;
+            font-family: $montserrat;
         }
     }
     .main-logo-container {
@@ -95,9 +96,10 @@
         }
         li {
             margin: 12px 20px 9px;
-            font-size: .65em;
+            font-size: .6em;
             letter-spacing: 2px;
             text-transform: uppercase;
+            font-family: $montserrat;
         }
     }
     .main-logo-container {
