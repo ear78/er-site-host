@@ -9,14 +9,16 @@ angular.module('myApp')
             link: function(scope,element,attrs){
                 scope.currentIndex = 0;
 
-                scope.images = mainService.images; 
+                scope.images = mainService.images;
 
                 scope.next = function(){
+                    console.log('clicked next')
                     scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
                 }
 
                 scope.prev = function(){
-                    scope.currentIndex < scope.images.length - 1 ? scope.currentIndex-- : scope.currentIndex = scope.images.length - 1;
+                    console.log('clicked prev')
+                    scope.currentIndex > 0 ? scope.currentIndex-- : scope.currentIndex = scope.images.length - 1;
                 }
 
                 scope.$watch('currentIndex', function(){
