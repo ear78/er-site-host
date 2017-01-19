@@ -53,6 +53,9 @@ FONTS TO CHOOSE
 font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box; }
@@ -407,10 +410,10 @@ ui-view.ng-enter-active,
   transition: all .5s ease; }
   .main-header-container .main-nav-container {
     display: flex; }
-    .main-header-container .main-nav-container a:nth-child(4) {
+    .main-header-container .main-nav-container a:nth-child(5) {
       border: 1px solid #fff;
       transition: all .2s ease; }
-    .main-header-container .main-nav-container a:nth-child(4):hover {
+    .main-header-container .main-nav-container a:nth-child(5):hover {
       text-decoration: none;
       background: #fff;
       color: #101010;
@@ -432,7 +435,7 @@ ui-view.ng-enter-active,
       height: 1px;
       width: 60%;
       margin: 0 auto; }
-    .main-header-container .main-nav-container a:nth-child(4):hover:after {
+    .main-header-container .main-nav-container a:nth-child(5):hover:after {
       content: '';
       display: block;
       background: none;
@@ -870,51 +873,92 @@ footer .site-map a:hover {
     line-height: 1.3;
     min-height: 400px; } }
 
-.slider {
+.design .logo-container {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background: none;
+  padding: 0;
+  min-height: 0; }
+  .design .logo-container img {
+    display: initial; }
+
+.design .main-title {
+  text-align: center; }
+
+.design .subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #aeb0b3;
+  text-transform: uppercase;
+  font-size: .75em; }
+
+.design .slider {
   position: relative;
-  padding: 5px;
+  padding: 5px 5px 60px;
   width: 75%;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   border: 1px solid gainsboro;
-  height: 675px; }
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  max-width: 750px; }
 
-.slide {
+.design .slide {
   top: 0;
-  left: 0;
-  position: absolute; }
-  .slide img {
+  left: 0; }
+  .design .slide img {
     max-width: 100%; }
 
-.slide-viewer {
+.design .slide-viewer {
   position: relative;
   overflow: hidden;
   height: 300px;
   background: lightblue; }
 
-.slide-group {
+.design .slide-group {
   width: 100%;
   height: 100%;
   position: relative; }
 
-.arrows {
+.design .arrows {
   position: absolute;
   bottom: 0;
   right: 0px;
   width: 100%;
   height: auto;
   display: flex;
-  background: rgba(0, 0, 0, 0.8);
+  background: #101010;
   padding: 10px; }
-  .arrows .buttons {
+  .design .arrows .buttons {
     height: 40px;
     width: 40px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
+    border-radius: 3px;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin: 0 2px;
+    border: 1px solid; }
+  .design .arrows .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    border-left: 1px solid #fff;
+    padding-left: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8em; }
+    .design .arrows .info .details {
+      font-family: "montserrat", sans-serif; }
+    .design .arrows .info .tech {
+      font-size: .75em; }
+  .design .arrows .logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px; }
 
 .close-menu {
   position: absolute;
@@ -1297,12 +1341,12 @@ footer .site-map a:hover {
   transition: all .5s ease; }
   .main-header-container-alt .main-nav-container {
     display: flex; }
-    .main-header-container-alt .main-nav-container a:nth-child(4) {
+    .main-header-container-alt .main-nav-container a:nth-child(5) {
       background: #101010;
       color: #fff;
       border: 1px solid #101010;
       transition: all .2s ease; }
-    .main-header-container-alt .main-nav-container a:nth-child(4):hover {
+    .main-header-container-alt .main-nav-container a:nth-child(5):hover {
       text-decoration: none;
       opacity: .9;
       color: #101010;
@@ -1327,7 +1371,7 @@ footer .site-map a:hover {
       height: 1px;
       width: 60%;
       margin: 0 auto; }
-    .main-header-container-alt .main-nav-container a:nth-child(4):hover:after {
+    .main-header-container-alt .main-nav-container a:nth-child(5):hover:after {
       content: '';
       display: block;
       background: none;
