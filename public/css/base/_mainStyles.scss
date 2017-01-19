@@ -24,6 +24,11 @@ $bone: #f7f7f7;
 $montserrat: 'montserrat', sans-serif;
 $nunito: 'nunito', sans-serif;
 
+//// NG-CLOAK CODE ///////////////
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+///////////////////////////////////
 
 * {
     box-sizing: border-box;

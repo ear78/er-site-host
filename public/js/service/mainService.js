@@ -50,19 +50,23 @@ angular.module('myApp')
         //IMAGES FOR SLIDER DIRECTIVE
         this.images = [{
             src: './img/ersite802x694.jpg',
-            title: 'Pic 1'
+            details: 'Elliot Richardson site',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
             src: './img/ersitefooterthumb.jpg',
-            title: 'Pic 2'
+            details: 'Pic 2',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
             src: './img/ersitemobilethumb2.jpg',
-            title: 'Pic 3'
+            details: 'Pic 3',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
             src: './img/ersiteaboutmobilethumb.jpg',
-            title: 'Pic 4'
+            details: 'Pic 4',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         }]
 
     })

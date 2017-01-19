@@ -5,5 +5,10 @@
     <div class="arrows">
         <a class="buttons" ng-click="prev()"><img ng-src="../../img/arrowleft.svg"/></a>
         <a class="buttons" ng-click="next()"><img ng-src="../../img/arrowright.svg"/></a>
+        <div class="info" ng-repeat="image in images" ng-show="image.visible">
+            <p class="details">{{ image.details }}</p>
+            <p class="tech">{{ image.tech}}</p>
+        </div>
+        <img class="logo" ng-src="../../img/earlogo2white.svg" alt="logo"/>
     </div>
 </div>

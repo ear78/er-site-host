@@ -57,11 +57,11 @@
     .main-nav-container {
         display: flex;
 
-        a:nth-child(4){
+        a:nth-child(5){
             border: 1px solid $white;
             transition: all .2s ease;
         }
-        a:nth-child(4):hover{
+        a:nth-child(5):hover{
             text-decoration: none;
             background: $white;
             color: $darkblack;
@@ -87,7 +87,7 @@
             width: 60%;
             margin: 0 auto;
         }
-        a:nth-child(4):hover:after {
+        a:nth-child(5):hover:after {
             content: '';
             display: block;
             background: none;

@@ -13,13 +13,13 @@
     .main-nav-container {
         display: flex;
 
-        a:nth-child(4){
+        a:nth-child(5){
             background: $darkblack;
             color: $white;
             border: 1px solid $darkblack;
             transition: all .2s ease;
         }
-        a:nth-child(4):hover{
+        a:nth-child(5):hover{
             text-decoration: none;
             opacity: .9;
             color: $darkblack;
@@ -48,7 +48,7 @@
             width: 60%;
             margin: 0 auto;
         }
-        a:nth-child(4):hover:after {
+        a:nth-child(5):hover:after {
             content: '';
             display: block;
             background: none;
