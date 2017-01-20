@@ -83,11 +83,7 @@
         width: 33.3%;
         display: flex;
         justify-content: center;
-        // transition: transform .2s ease;
     }
-    // .project-container1:hover {
-    //     transform: scale(1.02);
-    // }
     .project-container2 {
         position: relative;
         width: 90%;
@@ -104,7 +100,6 @@
             max-width: 100%;
             display: block;
             opacity: .2;
-            // transition: opacity .5s ease;
         }
         .img-thumb-fade {
             opacity: .5;
