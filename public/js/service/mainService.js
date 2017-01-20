@@ -1,7 +1,8 @@
 angular.module('myApp')
     .service('mainService', function(){
 
-        // IMAGES FOR THE PORTFOLIO SECTIONS
+        // IMAGES FOR THE PORTFOLIO SECTIONS///////////////////////////
+        //////////////////////////////////////////////////////////////
         this.portfolio = [
             {
                 img: './img/ersite802x694.jpg',
@@ -47,25 +48,60 @@ angular.module('myApp')
             }
         ];
 
-        //IMAGES FOR SLIDER DIRECTIVE
+        //IMAGES FOR SLIDER AND DESIGN DIRECTIVE/////////////////////////////////
+        /////////////////////////////////////////////////////////////
         this.images = [{
-            src: './img/ersite802x694.jpg',
+            img: './img/ersite802x694.jpg',
             details: 'Elliot Richardson site',
+            name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            src: './img/ersitefooterthumb.jpg',
+            img: './img/ersitefooterthumb.jpg',
             details: 'Pic 2',
+            name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            src: './img/ersitemobilethumb2.jpg',
+            img: './img/ersitemobilethumb2.jpg',
             details: 'Pic 3',
+            name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            src: './img/ersiteaboutmobilethumb.jpg',
+            img: './img/ersitemobilethumb2.jpg',
+            details: 'Pic 3',
+            name: 'Lyft Site Clone',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+        },
+        {
+            img: './img/ersitemobilethumb2.jpg',
+            details: 'Pic 3',
+            name: 'Lyft Site Clone',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+        },
+        {
+            img: './img/ersitemobilethumb2.jpg',
+            details: 'Pic 3',
+            name: 'Lyft Site Clone',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+        },
+        {
+            img: './img/ersitemobilethumb2.jpg',
+            details: 'Pic 3',
+            name: 'Lyft Site Clone',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+        },
+        {
+            img: './img/ersitemobilethumb2.jpg',
+            details: 'Pic 3',
+            name: 'Lyft Site Clone',
+            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+        },
+        {
+            img: './img/ersiteaboutmobilethumb.jpg',
             details: 'Pic 4',
+            name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         }]
 

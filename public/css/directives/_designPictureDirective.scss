@@ -1,0 +1,29 @@
+.picture-container {
+    background: #f2f2f2;
+    width: 100%;
+    display: flex;
+    min-height: 500px;
+    margin-bottom: 100px;
+}
+
+.column {
+    width: 33.3%;
+    padding: 10px;
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: block;
+    }
+}
+.column1 {
+    // background: black;
+}
+
+.column2 {
+    // background: lightyellow;
+}
+
+.column3 {
+    // background: tomato;
+}

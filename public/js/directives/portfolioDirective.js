@@ -2,6 +2,9 @@ angular.module('myApp')
     .directive('portfolioDirective', function(){
         return {
             restrict: 'E',
+            scope: {
+                portfolio: '=',
+            },
             templateUrl: '../../views/directives/portfolioDirective.html',
             controller: function($scope, mainService){
                 $scope.portfolio = mainService.portfolio;

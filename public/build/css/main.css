@@ -903,11 +903,14 @@ footer .site-map a:hover {
   margin-top: 80px;
   border: 1px solid gainsboro;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
-  max-width: 750px; }
+  max-width: 750px;
+  overflow: hidden;
+  min-height: 400px; }
 
 .design .slide {
   top: 0;
-  left: 0; }
+  left: 0;
+  position: absolute; }
   .design .slide img {
     max-width: 100%; }
 
@@ -939,26 +942,56 @@ footer .site-map a:hover {
     align-items: center;
     justify-content: center;
     margin: 0 2px;
-    border: 1px solid; }
+    transition: all .2s; }
+    .design .arrows .buttons i {
+      font-size: 26px; }
+  .design .arrows .buttons:hover {
+    cursor: pointer;
+    opacity: .5; }
   .design .arrows .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
     border-left: 1px solid #fff;
-    padding-left: 12px;
+    padding-left: 15px;
     color: #fff;
     text-transform: uppercase;
     font-size: .8em; }
     .design .arrows .info .details {
       font-family: "montserrat", sans-serif; }
     .design .arrows .info .tech {
-      font-size: .75em; }
+      display: none;
+      font-size: .75em;
+      color: #d3d3d3; }
   .design .arrows .logo {
     width: 40px;
     height: 40px;
     position: absolute;
     right: 10px; }
+
+.slide.ng-hide-add,
+.slide.ng-hide-remove {
+  -webkit-transition: all ease 0.5s, transform .6s ease;
+  -moz-transition: all ease 0.5s, transform .6s ease;
+  -o-transition: all ease 0.5s, transform .6s ease;
+  transition: all ease 0.5s, transform .6s ease; }
+
+.slide.ng-hide-add.ng-hide-add-active,
+.slide.ng-hide-remove {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0); }
+
+.slide.ng-hide-add,
+.slide.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0); }
+
+@media (min-width: 768px) {
+  .design .arrows .info .tech {
+    display: block;
+    font-size: .75em;
+    color: #d3d3d3; } }
 
 .close-menu {
   position: absolute;
@@ -1399,3 +1432,19 @@ footer .site-map a:hover {
 @media (min-width: 1200px) {
   .main-header-container-alt {
     padding-right: 2.5%; } }
+
+.picture-container {
+  background: #f2f2f2;
+  width: 100%;
+  display: flex;
+  min-height: 500px;
+  margin-bottom: 100px; }
+
+.column {
+  width: 33.3%;
+  padding: 10px; }
+  .column img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: block; }
