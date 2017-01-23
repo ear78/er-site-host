@@ -81,7 +81,7 @@ angular.module('myApp')
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: 'ersiteoldmockup.jpg',
+            img: 'ersiteoldermockup.jpg',
             details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
