@@ -51,58 +51,76 @@ angular.module('myApp')
         //IMAGES FOR SLIDER AND DESIGN DIRECTIVE/////////////////////////////////
         /////////////////////////////////////////////////////////////
         this.images = [{
-            img: './img/ersite802x694.jpg',
-            details: 'Elliot Richardson site',
+            img: 'devmtnmockup.jpg',
+            details: 'column 1',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersitefooterthumb.jpg',
-            details: 'Pic 2',
+            img: 'provolakeweb.jpg',
+            details: 'column 1',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersitemobilethumb2.jpg',
-            details: 'Pic 3',
+            img: 'gofanbasemockupgreen.jpg',
+            details: 'column 1',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersitemobilethumb2.jpg',
-            details: 'Pic 3',
+            img: 'exploretheair.jpg',
+            details: 'column 1',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersitemobilethumb2.jpg',
-            details: 'Pic 3',
+            img: 'elliotpark.jpg',
+            details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersitemobilethumb2.jpg',
-            details: 'Pic 3',
+            img: 'ersiteoldmockup.jpg',
+            details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersitemobilethumb2.jpg',
-            details: 'Pic 3',
+            img: 'gofanbaseMockup.jpg',
+            details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersitemobilethumb2.jpg',
-            details: 'Pic 3',
+            img: 'outdoorweb.jpg',
+            details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
-            img: './img/ersiteaboutmobilethumb.jpg',
-            details: 'Pic 4',
+            img: 'earsiteicons.jpg',
+            details: 'column 3',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
-        }]
+        },
+        {
+            img: 'devmtnsurveymockup.jpg',
+            details: 'column 3',
+            name: 'Fade Into The West',
+            tech: 'Affinity Designer'
+        },
+        {
+            img: 'draxemockup.jpg',
+            details: 'column 3',
+            name: 'Fade Into The West',
+            tech: 'Affinity Designer'
+        },
+        {
+            img: 'fadetowestmockup.jpg',
+            details: 'column 3',
+            name: 'Fade Into The West',
+            tech: 'Affinity Designer'
+        } ]
 
     })

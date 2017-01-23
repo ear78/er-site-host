@@ -1,21 +1,13 @@
 <section class="design">
     <div class="picture-container">
         <div class="column column1">
-            <img ng-src="../../img/design/devmtnmockup.jpg" />
-            <img ng-src="../../img/design/provolakeweb.jpg" />
-            <img ng-src="../../img/design/gofanbasemockupgreen.jpg" />
-            <img ng-src="../../img/design/exploretheair.jpg" />
+            <img ng-repeat="image in images | filter: 'column 1'" ng-src="./img/design/{{ image.img }}" />
         </div>
         <div class="column column2">
-            <img ng-src="../../img/design/elliotpark.jpg" />
-            <img ng-src="../../img/design/ersiteoldmockup.jpg" />
-            <img ng-src="../../img/design/gofanbaseMockup.jpg" />
-            <img ng-src="../../img/design/outdoorweb.jpg" />
+            <img ng-repeat="image in images | filter: 'column 2'" ng-src="./img/design/{{ image.img }}" />
         </div>
         <div class="column column3">
-            <img ng-src="../../img/design/earsiteicons.jpg" />
-            <img ng-src="../../img/design/devmtnsurveymockup.jpg" />
-            <img ng-src="../../img/design/draxemockup.jpg" />
+            <img ng-repeat="image in images | filter: 'column 3'" ng-src="./img/design/{{ image.img }}" />
         </div>
     </div>
 </section>
