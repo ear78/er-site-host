@@ -987,6 +987,19 @@ footer .site-map a:hover {
   opacity: 1;
   transform: translate3d(0, 0, 0); }
 
+.content-container {
+  padding: 60px 20px 60px 0px;
+  max-width: 1200px;
+  margin: 0 auto 0px; }
+  .content-container h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: montserrat;
+    margin-bottom: 15px; }
+  .content-container p {
+    line-height: 1.5;
+    letter-spacing: 1px; }
+
 @media (min-width: 768px) {
   .design .arrows .info .tech {
     display: block;
@@ -1438,7 +1451,10 @@ footer .site-map a:hover {
   width: 100%;
   display: flex;
   min-height: 500px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto; }
 
 .column {
   width: 33.3%;
@@ -1447,4 +1463,9 @@ footer .site-map a:hover {
     width: 100%;
     margin-bottom: 20px;
     margin-top: 10px;
-    display: block; }
+    display: block;
+    transition: all .1s ease; }
+  .column img:hover {
+    cursor: pointer;
+    opacity: .6;
+    background: black; }
