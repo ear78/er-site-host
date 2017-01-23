@@ -4,6 +4,9 @@
     display: flex;
     min-height: 500px;
     margin-bottom: 100px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .column {
@@ -14,16 +17,11 @@
         margin-bottom: 20px;
         margin-top: 10px;
         display: block;
+        transition: all .1s ease;
     }
-}
-.column1 {
-    // background: black;
-}
-
-.column2 {
-    // background: lightyellow;
-}
-
-.column3 {
-    // background: tomato;
+    img:hover {
+        cursor: pointer;
+        opacity: .6;
+        background: black;
+    }
 }

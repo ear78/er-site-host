@@ -132,6 +132,24 @@
   transform: translate3d(0,0,0);
 }
 
+.content-container {
+    padding: 60px 20px 60px 0px;
+    max-width: 1200px;
+    margin: 0 auto 0px;
+    h3 {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-family: montserrat;
+        margin-bottom: 15px;
+    }
+    p {
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+}
+
+
+
 @media (min-width: 768px){
     .design .arrows {
         .info {
