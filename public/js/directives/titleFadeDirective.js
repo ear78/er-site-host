@@ -7,7 +7,7 @@ angular.module('myApp')
                     $(window).on('scroll', function(){
                         var scrollPosition = $(this).scrollTop();
                         if(scrollPosition > 30){
-                            element.css('opacity', 1 - ( ($(window).scrollTop() - 30)/200));
+                            element.css('opacity', 1 - ( ($(window).scrollTop() - 30)/350));
                         }
                     })
 

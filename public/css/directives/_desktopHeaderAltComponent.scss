@@ -49,13 +49,13 @@
     .main-nav-container {
         display: flex;
 
-        a:nth-child(5){
+        a:nth-child(4){
             background: $darkblack;
             color: $white;
             border: 1px solid $darkblack;
             transition: all .2s ease;
         }
-        a:nth-child(5):hover{
+        a:nth-child(4):hover{
             text-decoration: none;
             opacity: .9;
             color: $darkblack;
@@ -84,7 +84,7 @@
             width: 60%;
             margin: 0 auto;
         }
-        a:nth-child(5):hover:after {
+        a:nth-child(4):hover:after {
             content: '';
             display: block;
             background: none;
@@ -107,6 +107,43 @@
     }
 }// CLOSING TAG FOR MAIN HEADER CSS
 
+// DROPMENU CSS /////////////////////////////
+.main-header-container-alt {
+    .main-nav-container {
+        .drop-container {
+            position: relative;
+            margin-right: 10px;
+            li {
+                color: $darkblack;
+                i {
+                    position: absolute;
+                    top: 9px;
+                    font-size: 18px;
+                }
+            }
+            li:hover {
+                cursor: pointer;
+            }
+            .drop-nav {
+                position: absolute;
+                display: none;
+                li {
+                    color: $seagreen;
+                }
+                li:hover {
+                    opacity: .7;
+                }
+                a:hover:after {
+                    width: 0;
+                }
+            }
+        }
+        .drop-container:hover .drop-nav {
+            display: block;
+        }
+    }
+}
+
 //// ON SCROLL MENU CLASS ADDED //////////
 .scroll-change-alt {
     background-color: $white;
@@ -114,6 +151,8 @@
     transition: all .8s ease;
 }
 
+
+//// MEDIA QUERIES ////////////////////////////
 @media(min-width:760px) {
     .mobile-main-header-container-alt {
         display: none;
