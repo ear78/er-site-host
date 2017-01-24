@@ -5,18 +5,13 @@
     <nav class="main-nav-container">
         <a ui-sref="home"><li>Home</li></a>
         <a ui-sref="about"><li>About</li></a>
-        <a ui-sref="design"><li>Design</li></a>
-        <a ui-sref="resume"><li>Resume</li></a>
+        <div class="drop-container">
+        <li>Experience<i class="material-icons">keyboard_arrow_down</i></li>
+            <div class="drop-nav">
+                <a ui-sref="design"><li>Design</li></a>
+                <a ui-sref="resume"><li>Resume</li></a>
+            </div>
+        </div>
         <a ui-sref="contact"><li>Contact</li></a>
     </nav>
 </header>
-
-<!-- MOBILE MENU ALT COLOR -->
-<!-- <header class="mobile-main-header-container-alt" menu-scroll>
-    <div class="main-logo-container">
-        <a ui-sref="home">
-            <img ng-src="./img/earlogo1.svg"/>
-        </a>
-    </div>
-    <img class="hamburger" ng-src="./img/hamburgerblk.svg" ng-click="openMobileMenu()"/>
-</header> -->

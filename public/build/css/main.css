@@ -131,10 +131,10 @@ ui-view.ng-enter-active,
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/clouds1.jpg");
   background-size: cover;
-  background-position: center -150px;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 450px;
+  min-height: 580px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -308,18 +308,18 @@ ui-view.ng-enter-active,
   .hero-image {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../../img/clouds1.jpg");
     background-size: cover;
-    background-position: center -215px;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     justify-content: flex-end;
     align-items: center;
-    min-height: 510px; }
+    min-height: 580px; }
     .hero-image .site-title {
       font-size: 4.25em; }
     .hero-image .site-subtitle {
       margin-bottom: 0; }
     .hero-image img {
-      margin: 75px 0 20px;
+      margin: 95px 0 20px;
       display: inline-block; }
     .hero-image p {
       display: block;
@@ -354,10 +354,13 @@ ui-view.ng-enter-active,
       width: 50%; } }
 
 @media (min-width: 1000px) {
-  .hero-image .site-title {
-    font-size: 4.75em; }
-  .hero-image img {
-    width: 80px; }
+  .hero-image {
+    min-height: 650px; }
+    .hero-image .site-title {
+      font-size: 5em; }
+    .hero-image img {
+      margin-top: 120px;
+      width: 80px; }
   .projects-banner-image h2 {
     font-size: 4.75em; }
   .summary-skills .skills-list {
@@ -436,10 +439,10 @@ ui-view.ng-enter-active,
   transition: all .5s ease; }
   .main-header-container .main-nav-container {
     display: flex; }
-    .main-header-container .main-nav-container a:nth-child(5) {
+    .main-header-container .main-nav-container a:nth-child(4) {
       border: 1px solid #fff;
       transition: all .2s ease; }
-    .main-header-container .main-nav-container a:nth-child(5):hover {
+    .main-header-container .main-nav-container a:nth-child(4):hover {
       text-decoration: none;
       background: #fff;
       color: #101010;
@@ -461,7 +464,7 @@ ui-view.ng-enter-active,
       height: 1px;
       width: 60%;
       margin: 0 auto; }
-    .main-header-container .main-nav-container a:nth-child(5):hover:after {
+    .main-header-container .main-nav-container a:nth-child(4):hover:after {
       content: '';
       display: block;
       background: none;
@@ -475,6 +478,31 @@ ui-view.ng-enter-active,
       font-family: "montserrat", sans-serif; }
   .main-header-container .main-logo-container img {
     width: 35px; }
+
+.main-header-container .main-nav-container .drop-container {
+  position: relative;
+  margin-right: 10px; }
+  .main-header-container .main-nav-container .drop-container li {
+    color: #fff; }
+    .main-header-container .main-nav-container .drop-container li i {
+      position: absolute;
+      top: 9px;
+      font-size: 18px; }
+  .main-header-container .main-nav-container .drop-container .drop-nav {
+    position: absolute;
+    display: none; }
+    .main-header-container .main-nav-container .drop-container .drop-nav li {
+      color: lightseagreen; }
+    .main-header-container .main-nav-container .drop-container .drop-nav li:hover {
+      opacity: .7; }
+    .main-header-container .main-nav-container .drop-container .drop-nav a:hover:after {
+      width: 0; }
+
+.main-header-container .main-nav-container .drop-container:hover {
+  cursor: pointer; }
+
+.main-header-container .main-nav-container .drop-container:hover .drop-nav {
+  display: block; }
 
 @media (min-width: 760px) {
   .mobile-main-header-container {
@@ -1023,8 +1051,7 @@ footer .site-map a:hover {
     font-family: montserrat;
     margin-bottom: 15px; }
   .content-container p {
-    line-height: 1.5;
-    letter-spacing: 1px; }
+    line-height: 1.5; }
 
 @media (min-width: 768px) {
   .design .arrows .info .tech {
@@ -1439,12 +1466,12 @@ footer .site-map a:hover {
   transition: all .5s ease; }
   .main-header-container-alt .main-nav-container {
     display: flex; }
-    .main-header-container-alt .main-nav-container a:nth-child(5) {
+    .main-header-container-alt .main-nav-container a:nth-child(4) {
       background: #101010;
       color: #fff;
       border: 1px solid #101010;
       transition: all .2s ease; }
-    .main-header-container-alt .main-nav-container a:nth-child(5):hover {
+    .main-header-container-alt .main-nav-container a:nth-child(4):hover {
       text-decoration: none;
       opacity: .9;
       color: #101010;
@@ -1469,7 +1496,7 @@ footer .site-map a:hover {
       height: 1px;
       width: 60%;
       margin: 0 auto; }
-    .main-header-container-alt .main-nav-container a:nth-child(5):hover:after {
+    .main-header-container-alt .main-nav-container a:nth-child(4):hover:after {
       content: '';
       display: block;
       background: none;
@@ -1484,6 +1511,30 @@ footer .site-map a:hover {
       font-family: "montserrat", sans-serif; }
   .main-header-container-alt .main-logo-container img {
     width: 35px; }
+
+.main-header-container-alt .main-nav-container .drop-container {
+  position: relative;
+  margin-right: 10px; }
+  .main-header-container-alt .main-nav-container .drop-container li {
+    color: #101010; }
+    .main-header-container-alt .main-nav-container .drop-container li i {
+      position: absolute;
+      top: 9px;
+      font-size: 18px; }
+  .main-header-container-alt .main-nav-container .drop-container li:hover {
+    cursor: pointer; }
+  .main-header-container-alt .main-nav-container .drop-container .drop-nav {
+    position: absolute;
+    display: none; }
+    .main-header-container-alt .main-nav-container .drop-container .drop-nav li {
+      color: lightseagreen; }
+    .main-header-container-alt .main-nav-container .drop-container .drop-nav li:hover {
+      opacity: .7; }
+    .main-header-container-alt .main-nav-container .drop-container .drop-nav a:hover:after {
+      width: 0; }
+
+.main-header-container-alt .main-nav-container .drop-container:hover .drop-nav {
+  display: block; }
 
 .scroll-change-alt {
   background-color: #fff;

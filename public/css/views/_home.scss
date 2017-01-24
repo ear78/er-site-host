@@ -2,10 +2,10 @@
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     url('../../img/clouds1.jpg');
     background-size: cover;
-    background-position: center -150px;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 450px;
+    min-height: 580px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -234,12 +234,12 @@
         background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
         url('../../img/clouds1.jpg');
         background-size: cover;
-        background-position: center -215px;
+        background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         justify-content: flex-end;
         align-items: center;
-        min-height: 510px;
+        min-height: 580px;
         .site-title {
             font-size: 4.25em;
         }
@@ -247,7 +247,7 @@
             margin-bottom: 0;
         }
         img {
-            margin: 75px 0 20px;
+            margin: 95px 0 20px;
             display: inline-block;
         }
         p {
@@ -310,18 +310,16 @@
         }
     }
 
-
 }
-
-
-
 
 @media(min-width: 1000px) {
     .hero-image {
+        min-height: 650px;
         .site-title {
-            font-size: 4.75em;
+            font-size: 5em;
         }
         img {
+            margin-top: 120px;
             width: 80px;
         }
     }
