@@ -391,6 +391,32 @@ ui-view.ng-enter-active,
   .mobile-main-header-container .hamburger:hover {
     cursor: pointer; }
 
+.mobile-main-header-container-alt {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  background: linear-gradient(transparent, transparent);
+  min-height: 60px;
+  align-items: center;
+  padding: 0 12px;
+  z-index: 4;
+  transition: all .2s ease; }
+  .mobile-main-header-container-alt .main-nav-container {
+    display: flex; }
+    .mobile-main-header-container-alt .main-nav-container li {
+      margin: 2px 10px;
+      font-family: "montserrat", sans-serif; }
+  .mobile-main-header-container-alt .main-logo-container img {
+    width: 35px; }
+  .mobile-main-header-container-alt .hamburger {
+    width: 28px; }
+  .mobile-main-header-container-alt .hamburger:hover {
+    cursor: pointer; }
+
 .scroll-change {
   background-color: #101010;
   box-shadow: 0px 0px 20px;
@@ -1373,6 +1399,32 @@ footer .site-map a:hover {
     font-size: 0.8em;
     font-weight: 600; }
 
+.mobile-main-header-container-alt {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  background: #101010;
+  background: linear-gradient(transparent, transparent);
+  min-height: 60px;
+  align-items: center;
+  padding: 0 12px;
+  z-index: 4;
+  transition: all .2s ease; }
+  .mobile-main-header-container-alt .main-nav-container {
+    display: flex; }
+    .mobile-main-header-container-alt .main-nav-container li {
+      margin: 2px 10px;
+      font-family: "montserrat", sans-serif; }
+  .mobile-main-header-container-alt .main-logo-container img {
+    width: 35px; }
+  .mobile-main-header-container-alt .hamburger {
+    width: 28px; }
+  .mobile-main-header-container-alt .hamburger:hover {
+    cursor: pointer; }
+
 .main-header-container-alt {
   display: none;
   position: fixed;
@@ -1439,6 +1491,8 @@ footer .site-map a:hover {
   transition: all .8s ease; }
 
 @media (min-width: 760px) {
+  .mobile-main-header-container-alt {
+    display: none; }
   .main-header-container-alt {
     display: flex; } }
 
