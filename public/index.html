@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Elliot Richardson Front End Developer</title>
+        <link rel="icon" type="img/png" href="./img/elliotrichardsonfavicon.png">
 
         <!-- ICONS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,13 +20,23 @@
 
 
             <!-- MOBILE HEADER MENU  WITH ONSCROLL DIRECTIVE-->
-            <header class="mobile-main-header-container" menu-scroll>
+            <header ng-show="$state.current.name === 'home'"  class="mobile-main-header-container" menu-scroll>
                 <div class="main-logo-container">
                     <a ui-sref="home">
                         <img ng-src="./img/earlogo1white.svg"/>
                     </a>
                 </div>
                 <img class="hamburger" ng-src="./img/ic_menu_white_24px.svg" ng-click="openMobileMenu()"/>
+            </header>
+
+            <!-- MOBILE HEADER FOR WHITE BACKGROUND PAGES -->
+            <header ng-hide="$state.current.name === 'home'"  class="mobile-main-header-container-alt" menu-scroll>
+                <div class="main-logo-container">
+                    <a ui-sref="home">
+                        <img ng-src="./img/earlogo1white.svg"/>
+                    </a>
+                </div>
+                <img class="hamburger" ng-src="./img/hamburgerblk.svg" ng-click="openMobileMenu()"/>
             </header>
 
             <!-- MOBILE SIDEMENU -->
