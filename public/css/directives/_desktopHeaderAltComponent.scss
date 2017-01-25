@@ -121,12 +121,10 @@
                     font-size: 18px;
                 }
             }
-            li:hover {
-                cursor: pointer;
-            }
             .drop-nav {
                 position: absolute;
                 display: none;
+                padding-top: 10px;
                 li {
                     color: $seagreen;
                 }
@@ -138,8 +136,14 @@
                 }
             }
         }
+        .drop-container:hover {
+            cursor: pointer;
+        }
         .drop-container:hover .drop-nav {
             display: block;
+            background: $darkblack;
+            top: 30px;
+            width: 120px;
         }
     }
 }

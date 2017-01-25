@@ -490,7 +490,8 @@ ui-view.ng-enter-active,
       font-size: 18px; }
   .main-header-container .main-nav-container .drop-container .drop-nav {
     position: absolute;
-    display: none; }
+    display: none;
+    padding-top: 10px; }
     .main-header-container .main-nav-container .drop-container .drop-nav li {
       color: lightseagreen; }
     .main-header-container .main-nav-container .drop-container .drop-nav li:hover {
@@ -502,7 +503,11 @@ ui-view.ng-enter-active,
   cursor: pointer; }
 
 .main-header-container .main-nav-container .drop-container:hover .drop-nav {
-  display: block; }
+  display: block;
+  background: #101010;
+  background: rgba(0, 0, 0, 0.1);
+  top: 30px;
+  width: 120px; }
 
 @media (min-width: 760px) {
   .mobile-main-header-container {
@@ -1534,11 +1539,10 @@ footer .site-map a:hover {
       position: absolute;
       top: 9px;
       font-size: 18px; }
-  .main-header-container-alt .main-nav-container .drop-container li:hover {
-    cursor: pointer; }
   .main-header-container-alt .main-nav-container .drop-container .drop-nav {
     position: absolute;
-    display: none; }
+    display: none;
+    padding-top: 10px; }
     .main-header-container-alt .main-nav-container .drop-container .drop-nav li {
       color: lightseagreen; }
     .main-header-container-alt .main-nav-container .drop-container .drop-nav li:hover {
@@ -1546,8 +1550,14 @@ footer .site-map a:hover {
     .main-header-container-alt .main-nav-container .drop-container .drop-nav a:hover:after {
       width: 0; }
 
+.main-header-container-alt .main-nav-container .drop-container:hover {
+  cursor: pointer; }
+
 .main-header-container-alt .main-nav-container .drop-container:hover .drop-nav {
-  display: block; }
+  display: block;
+  background: #101010;
+  top: 30px;
+  width: 120px; }
 
 .scroll-change-alt {
   background-color: #fff;
