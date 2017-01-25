@@ -6,8 +6,11 @@ angular.module('myApp')
                 var $projectBox = $('.project-box');
                 var $projectDrop = $('.project-drop');
 
+
                 element.on('click', function(){
                     element.next().slideToggle(400);
+                    element.children('.project-plus-icon').toggle();
+                    element.children('.project-minus-icon').toggle();
                 })
             }
         }

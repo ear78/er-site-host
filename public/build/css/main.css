@@ -1041,23 +1041,30 @@ footer .site-map a:hover {
   opacity: 1;
   transform: translate3d(0, 0, 0); }
 
-.content-container {
-  padding: 60px 20px 60px 0px;
+.design .content-container {
+  padding: 60px 0px 60px 0px;
   max-width: 1200px;
-  margin: 0 auto 0px; }
-  .content-container h3 {
+  margin: 0 auto 0px;
+  width: 98%;
+  text-align: justify; }
+  .design .content-container h3 {
     font-size: 1.5em;
     text-transform: uppercase;
     font-family: montserrat;
     margin-bottom: 15px; }
-  .content-container p {
+  .design .content-container p {
     line-height: 1.5; }
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
   .design .arrows .info .tech {
     display: block;
     font-size: .75em;
-    color: #d3d3d3; } }
+    color: #d3d3d3; }
+  .design .content-container {
+    padding: 60px 20px 60px 0px;
+    max-width: 1200px;
+    margin: 0 auto 0px;
+    width: 100%; } }
 
 .close-menu {
   position: absolute;
@@ -1149,6 +1156,12 @@ footer .site-map a:hover {
     position: absolute;
     right: 30px;
     font-size: 24px;
+    line-height: .4; }
+  .portfolio-container .project-minus-icon {
+    position: absolute;
+    display: none;
+    right: 30px;
+    font-size: 38px;
     line-height: .4; }
 
 .portfolio-slide {
@@ -1555,6 +1568,7 @@ footer .site-map a:hover {
   background: #f2f2f2;
   width: 100%;
   display: flex;
+  flex-direction: column;
   min-height: 500px;
   margin-bottom: 100px;
   max-width: 1200px;
@@ -1562,7 +1576,7 @@ footer .site-map a:hover {
   margin-left: auto; }
 
 .column {
-  width: 33.3%;
+  width: 100%;
   padding: 10px; }
   .column img {
     width: 100%;
@@ -1574,3 +1588,12 @@ footer .site-map a:hover {
     cursor: pointer;
     opacity: .6;
     background: black; }
+
+@media (min-width: 760px) {
+  .picture-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+  .column {
+    width: 33.3%;
+    padding: 10px; } }
