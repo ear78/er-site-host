@@ -1,5 +1,5 @@
 <section class="form-wrap padding-top" ng-controller="contactCtrl">
-      <form class="contact-form inner-wrap">
+      <form name="contactForm" class="contact-form inner-wrap">
         <fieldset>
             <img class="page-logo" ng-src="../img/earlogo1.svg"/>
             <h2>Contact Me</h2>
@@ -8,11 +8,11 @@
             <p>Name *</p>
             <div class="top-info-box-container">
               <div class="info-box">
-                <input id="firstName" ng-model="contact.firstName" type="text" class="required"/>
+                <input id="firstName" required ng-model="contact.firstName" type="text" class="required"/>
                 <label for="firstName">First Name </lable>
               </div>
               <div class="info-box">
-                <input id="lastName" type="text" ng-model="contact.lastName" class="required"/>
+                <input id="lastName" type="text" required ng-model="contact.lastName" class="required"/>
                 <label for="lastName">Last Name </lable>
               </div>
             </div>
@@ -23,15 +23,15 @@
             </div>
             <div class="info-box">
               <p>Email *</p>
-              <input id="email" ng-model="contact.email" type="email" class="required"/>
+              <input id="email" required ng-model="contact.email" type="email" class="required"/>
             </div>
             <div class="info-box">
               <p>Message *</p>
-              <textarea id="message" ng-model="contact.message" class="required" name="name" rows="8" cols="80"></textarea>
+              <textarea id="message" required ng-model="contact.message" class="required" name="name" rows="8" cols="80"></textarea>
             </div>
 
             <div class="footer">
-              <button class="hvr-sweep-to-top" value="submit" type="submit" ng-click="submitContact(contact)">Submit Request</button>
+              <button class="hvr-sweep-to-top" value="submit" type="submit" ng-disabled="contactForm.$invalid" ng-click="submitContact(contact)">Submit Request</button>
               <div class="required-message hide-required-message">
                 Please fill out required fields. *
               </div>

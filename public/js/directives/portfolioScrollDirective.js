@@ -7,7 +7,7 @@ angular.module('myApp')
             link: function(scope,element,attrs){
                 $(window).on('scroll', function(){
                     var scrollPosition = $(this).scrollTop();
-                    if(scrollPosition > 1400){
+                    if(scrollPosition > 1550){
                         element.addClass('portfolio-slide');
                     }
                 })
