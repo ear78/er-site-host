@@ -51,6 +51,12 @@ angular.module('myApp')
         //IMAGES FOR SLIDER AND DESIGN DIRECTIVE/////////////////////////////////
         /////////////////////////////////////////////////////////////
         this.images = [{
+            img: 'aporcheddusite.jpg',
+            details: 'column 1',
+            name: 'Anthondy Porcheddu Site',
+            tech: 'HTML, CSS, Affinity Designer'
+        },
+        {
             img: 'devmtnmockup.jpg',
             details: 'column 1',
             name: 'Lyft Site Clone',
