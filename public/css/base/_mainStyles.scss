@@ -110,15 +110,14 @@ h4 {
     margin: 0px auto 15px;
 }
 
-ui-view.ng-enter,
-[ui-view].ng-enter {
+//// NG-VIEW ANIMATIONS ///////////////////
+
+
+.fade.ng-enter {
     opacity: 0;
-    // transform: translate3d(0px,25px,0);
-    transition: opacity 1.75s, transform .9s;
+    transition: opacity 1s ease;
 }
 
-ui-view.ng-enter-active,
-[ui-view].ng-enter-active {
+.fade.ng-enter.ng-enter-active {
     opacity: 1;
-    // transform: translate3d(0,0,0);
 }

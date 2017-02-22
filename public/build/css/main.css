@@ -117,13 +117,11 @@ h4 {
   display: block;
   margin: 0px auto 15px; }
 
-ui-view.ng-enter,
-[ui-view].ng-enter {
+.fade.ng-enter {
   opacity: 0;
-  transition: opacity 1.75s, transform .9s; }
+  transition: opacity 1s ease; }
 
-ui-view.ng-enter-active,
-[ui-view].ng-enter-active {
+.fade.ng-enter.ng-enter-active {
   opacity: 1; }
 
 .hero-image {
@@ -1458,7 +1456,7 @@ footer .site-map a:hover {
   background: linear-gradient(transparent, transparent);
   min-height: 60px;
   align-items: center;
-  padding: 0 12px;
+  padding: 0 20px 0 0;
   z-index: 4;
   transition: all .2s ease; }
   .mobile-main-header-container-alt .main-nav-container {
@@ -1477,6 +1475,7 @@ footer .site-map a:hover {
   display: none;
   position: fixed;
   width: 100%;
+  font-size: .9em;
   top: 0px;
   left: 0px;
   z-index: 4;

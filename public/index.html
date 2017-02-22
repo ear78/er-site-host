@@ -15,14 +15,14 @@
         <link rel="stylesheet" type="text/css" href="./build/css/main.css">
     </head>
 
-    <body id="top" ng-controller="MainCtrl" ng-cloak>
+    <body id="top" ng-controller="homeCtrl" ng-cloak>
         <main class="main-wrapper">
 
 
             <!-- MOBILE HEADER MENU  WITH ONSCROLL DIRECTIVE-->
-            <header ng-show="$state.current.name === 'home'"  class="mobile-main-header-container" menu-scroll>
+            <header ng-show="$route.current.originalPath === '/'"  class="mobile-main-header-container" menu-scroll>
                 <div class="main-logo-container">
-                    <a ui-sref="home">
+                    <a href="#!/">
                         <img ng-src="./img/earlogo1white.svg"/>
                     </a>
                 </div>
@@ -30,9 +30,9 @@
             </header>
 
             <!-- MOBILE HEADER FOR WHITE BACKGROUND PAGES -->
-            <header ng-hide="$state.current.name === 'home'"  class="mobile-main-header-container-alt" menu-scroll>
+            <header ng-hide="$route.current.originalPath === '/'"  class="mobile-main-header-container-alt" menu-scroll>
                 <div class="main-logo-container">
-                    <a ui-sref="home">
+                    <a href="#!/">
                         <img ng-src="./img/earlogo1white.svg"/>
                     </a>
                 </div>
@@ -43,18 +43,18 @@
             <mobile-menu-directive></mobile-menu-directive>
 
             <!-- DESKTOP HEADER MENU -->
-            <header ng-show="$state.current.name === 'home'" class="main-header-container" menu-scroll>
+            <header ng-show="$route.current.originalPath === '/'" class="main-header-container" menu-scroll>
                 <div class="main-logo-container">
                     <!-- <img ng-src="./img/earlogo1white.svg"/> -->
                 </div>
                 <nav class="main-nav-container">
-                    <a ui-sref="home"><li>Home</li></a>
-                    <a ui-sref="about"><li>About</li></a>
+                    <a href="#!/"><li>Home</li></a>
+                    <a href="#!/about"><li>About</li></a>
                     <div class="drop-container">
                     <li>Experience<i class="material-icons">keyboard_arrow_down</i></li>
                         <div class="drop-nav">
-                            <a ui-sref="design"><li>Design</li></a>
-                            <a ui-sref="resume"><li>Resume</li></a>
+                            <a href="#!/design"><li>Design</li></a>
+                            <a href="#!/resume"><li>Resume</li></a>
                         </div>
                     </div>
                     <a href="mailto:ear78@aol.com"><li>Contact</li></a>
@@ -62,26 +62,28 @@
             </header>
 
             <!-- ALTERNATE HEADER FOR PAGES THAT HAVE WHITE BACKGROUND -->
-            <desktop-header-alt-component ng-hide="$state.current.name === 'home'"></desktop-header-alt-component>
+            <desktop-header-alt-component ng-hide="$route.current.originalPath === '/'"></desktop-header-alt-component>
 
             <!-- UI VIEW FOR ANGULAR -->
-            <div ui-view autoscroll="true"></div>
+            <!-- <div ui-view autoscroll="true"></div> -->
+
+            <div class="fade" ng-view autoscroll="true"></div>
 
             <!-- CONTACT SECTION DIRECTIVE -->
-            <contact-section-directive ng-hide="$state.current.name === 'contact'"></contact-section-directive>
+            <contact-section-directive ng-hide="$route.current.originalPath === '/contact'"></contact-section-directive>
 
             <!-- FOOTER SECTION -->
             <footer>
                 <p class="built">Built By Hand in Nashville, Tn by Elliot Richardson</p>
                 <div class="main-logo-container">
-                    <a ui-sref="home">
+                    <a href="#!/">
                         <img ng-src="./img/earlogo1white.svg"/>
                     </a>
                 </div>
                 <ul class="site-map">
-                    <a ui-sref="about">About</a>
-                    <a ui-sref="design">Design</a>
-                    <a ui-sref="resume">Resume</a>
+                    <a href="#!/about">About</a>
+                    <a href="#!/design">Design</a>
+                    <a href="#!/resume">Resume</a>
                     <a href="mailto:ear78@aol.com">Contact</a>
                 </ul>
                 <ul class="social-icons">
@@ -90,7 +92,7 @@
                     <a href="https://twitter.com/mixermanelliot" target="_blank"><i class="fa fa-twitter"></i></a>
                     <a href="https://github.com/ear78" target="_blank"><i class="fa fa-github"></i></a>
                 </ul>
-                <a class="site-link" ui-sref="home">www.elliotrichardson.com</p>
+                <a class="site-link" href="#!/">www.elliotrichardson.com</p>
                 <a class="to-top" click-scroll-directive><i class="fa fa-angle-up" aria-hidden="true"></i></a>
             </footer>
 
@@ -103,14 +105,18 @@
           integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
           crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
 
         <!-- JAVASCRIPT FILES -->
         <script src="./app.js"></script>
         <script src="./js/controllers/MainCtrl.js"></script>
         <script src="./js/controllers/homeCtrl.js"></script>
         <script src="./js/controllers/contactCtrl.js"></script>
+        <script src="./js/controllers/designCtrl.js"></script>
+        <script src="./js/controllers/aboutCtrl.js"></script>
+        <script src="./js/controllers/resumeCtrl.js"></script>
         <script src="./js/service/mainService.js"></script>
         <script src="./js/directives/mobileMenuDirective.js"></script>
         <script src="./js/directives/menuScrollDirective.js"></script>
