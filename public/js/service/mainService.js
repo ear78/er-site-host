@@ -37,7 +37,7 @@ angular.module('myApp')
                 name: 'Future App Mockup',
                 tech: 'HTML, CSS, Javascript, PHP, Apache, Wordpress, Affinity Suite',
                 images: ['./img/futureweb1.jpg', './img/futureweb2.jpg', './img/futureweb3.jpg', './img/futureweb4.jpg'],
-                text: 'This site was built from the ground up utilizing HTML, CSS, Javascript, Apache, PHP, Wordpress, Affinity Suite'
+                text: 'This site was built and designed from the ground up utilizing HTML, CSS, Javascript, Apache, PHP, Wordpress, Affinity Suite'
             },
             {
                 img: './img/slice8.jpg',

@@ -240,19 +240,12 @@
 }
 @media(min-width: 760px) {
     .hero-image {
-        // background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
-        // url('../../img/clouds1.jpg');
-        // background-size: cover;
-        // background-position: center;
-        // background-repeat: no-repeat;
-        // background-attachment: fixed;
         -webkit-justify-content: flex-end;
         -moz-justify-content: flex-end;
         justify-content: flex-end;
         -webkit-align-items: center;
         -moz-align-items: center;
         align-items: center;
-        // min-height: 580px;
         .site-title {
             font-size: 4.25em;
         }
