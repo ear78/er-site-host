@@ -4,8 +4,9 @@ angular.module('myApp')
             restrict: 'A',
             link: function(scope,element,attrs){
                 element.on('click', function(){
-                    $('body').animate({scrollTop: 0}, "slow");
+                    $('body,html').animate({scrollTop: 0}, "slow");
                 })
             }
+
         }
     })

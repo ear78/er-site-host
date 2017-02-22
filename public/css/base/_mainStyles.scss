@@ -113,12 +113,12 @@ h4 {
 ui-view.ng-enter,
 [ui-view].ng-enter {
     opacity: 0;
-    transform: translate3d(0px,25px,0);
-    transition: opacity 1.5s, transform .9s;
+    // transform: translate3d(0px,25px,0);
+    transition: opacity 1.75s, transform .9s;
 }
 
 ui-view.ng-enter-active,
 [ui-view].ng-enter-active {
     opacity: 1;
-    transform: translate3d(0,0,0);
+    // transform: translate3d(0,0,0);
 }
