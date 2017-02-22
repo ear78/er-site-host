@@ -8,8 +8,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: -moz-fixed;
     background-attachment: fixed;
+    background-origin: border-box;
     min-height: 580px;
     width: 100%;
     display: -webkit-flex;
@@ -242,8 +242,8 @@
     .hero-image {
         // background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
         // url('../../img/clouds1.jpg');
-        background-size: cover;
-        background-position: center;
+        // background-size: cover;
+        // background-position: center;
         // background-repeat: no-repeat;
         // background-attachment: fixed;
         -webkit-justify-content: flex-end;
