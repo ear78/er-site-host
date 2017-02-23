@@ -12,12 +12,19 @@
     }
 }
 
-.client-list {
+.client-list-container {
+    display: flex;
+    justify-content: space-around;
     max-width: 1020px;
-    margin: 20px auto;
-    padding-left: 15px;
-    li {
-        margin-bottom: 10px;
-        list-style-type: disc;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 60px;
+    .client-list {
+        margin: 20px auto;
+        li {
+            margin-bottom: 10px;
+            list-style-type: disc;
+            font-style: italic;
+        }
     }
 }
