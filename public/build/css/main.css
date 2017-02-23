@@ -125,9 +125,9 @@ h4 {
   opacity: 1; }
 
 .hero-image {
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/clouds1.jpg");
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/clouds1.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../img/clouds1.jpg");
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/clouds1.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/clouds1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/clouds1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -231,6 +231,12 @@ h4 {
 
 .projects-container {
   margin-bottom: 80px; }
+  .projects-container .projects-titles {
+    text-align: center; }
+  .projects-container .projects-para {
+    max-width: 650px;
+    margin: 50px auto;
+    text-align: center; }
 
 .projects-banner-image {
   background: url("../../img/beachpic1.jpg");
@@ -341,7 +347,7 @@ h4 {
     height: 60px;
     margin: 0px 2% 15px; }
   .summary-content {
-    max-width: 550px;
+    max-width: 650px;
     margin: 0 auto 80px; }
   .contact-container a {
     width: 400px; }
@@ -368,6 +374,10 @@ h4 {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto; } }
+
+@media (min-width: 1400px) {
+  .hero-image .site-title {
+    font-size: 6em; } }
 
 .mobile-main-header-container {
   position: fixed;
@@ -1177,7 +1187,8 @@ footer .site-map a:hover {
   display: none;
   justify-content: center;
   max-width: 1020px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 80px; }
   .desktop-portfolio-container .project-box {
     margin: 0 1%;
     width: 20%;
@@ -1225,7 +1236,7 @@ footer .site-map a:hover {
       position: absolute;
       bottom: 20px;
       width: 100%;
-      padding: 10px;
+      padding: 10px 21px;
       min-height: 75px;
       opacity: 1;
       min-height: 147px;
@@ -1364,8 +1375,10 @@ footer .site-map a:hover {
     display: flex; } }
 
 @media (min-width: 1000px) {
-  .project-row .box1 .project-info-container .project-info-left p {
-    font-size: 1em; }
+  .project-row .box1 .project-info-container {
+    padding: 10px 35px; }
+    .project-row .box1 .project-info-container .project-info-left p {
+      font-size: 1em; }
   .portfolio-modal .arrow-left {
     left: 6%; }
   .portfolio-modal .arrow-right {
@@ -1609,3 +1622,21 @@ footer .site-map a:hover {
   .column {
     width: 33.3%;
     padding: 10px; } }
+
+.client-container {
+  margin-bottom: 100px; }
+  .client-container h2 {
+    margin-bottom: 20px;
+    text-align: center; }
+  .client-container p {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 70px; }
+
+.client-list {
+  max-width: 1020px;
+  margin: 20px auto;
+  padding-left: 15px; }
+  .client-list li {
+    margin-bottom: 10px;
+    list-style-type: disc; }

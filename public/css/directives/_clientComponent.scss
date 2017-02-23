@@ -1,0 +1,23 @@
+
+.client-container {
+    margin-bottom: 100px;
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        max-width: 650px;
+        margin: 0 auto 70px;
+    }
+}
+
+.client-list {
+    max-width: 1020px;
+    margin: 20px auto;
+    padding-left: 15px;
+    li {
+        margin-bottom: 10px;
+        list-style-type: disc;
+    }
+}

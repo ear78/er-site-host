@@ -1,9 +1,9 @@
 .hero-image {
-    background: -moz-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    background: -moz-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     url('../../img/clouds1.jpg');
-    background: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    background: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     url('../../img/clouds1.jpg');
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     url('../../img/clouds1.jpg');
     background-size: cover;
     background-position: center;
@@ -133,6 +133,14 @@
 
 .projects-container {
     margin-bottom: 80px;
+    .projects-titles {
+        text-align: center;
+    }
+    .projects-para {
+        max-width: 650px;
+        margin: 50px auto;
+        text-align: center;
+    }
 }
 
 .projects-banner-image {
@@ -169,8 +177,9 @@
         width: 60%;
         text-align: center;
     }
-
 }
+
+
 
 
 /////////////////////////////////////////////
@@ -238,6 +247,8 @@
         }
     }
 }
+
+
 @media(min-width: 760px) {
     .hero-image {
         -webkit-justify-content: flex-end;
@@ -289,7 +300,7 @@
     }
 
     .summary-content {
-        max-width: 550px;
+        max-width: 650px;
         margin: 0 auto 80px;
     }
 
@@ -315,7 +326,6 @@
             width: 50%;
         }
     }
-
 }
 
 @media(min-width: 1000px) {
@@ -342,4 +352,12 @@
         }
     }
 
+}
+
+@media(min-width: 1400px){
+    .hero-image {
+        .site-title {
+            font-size: 6em;
+        }
+    }
 }

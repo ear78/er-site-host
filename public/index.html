@@ -64,10 +64,10 @@
             <!-- ALTERNATE HEADER FOR PAGES THAT HAVE WHITE BACKGROUND -->
             <desktop-header-alt-component ng-hide="$route.current.originalPath === '/'"></desktop-header-alt-component>
 
-            <!-- UI VIEW FOR ANGULAR -->
-            <!-- <div ui-view autoscroll="true"></div> -->
 
+            <!-- NG-VIEW DIV -->
             <div class="fade" ng-view autoscroll="true"></div>
+
 
             <!-- CONTACT SECTION DIRECTIVE -->
             <contact-section-directive ng-hide="$route.current.originalPath === '/contact'"></contact-section-directive>
@@ -131,5 +131,6 @@
         <script src="./js/directives/portfolioModalDirective.js"></script>
         <script src="./js/directives/sliderDirective.js"></script>
         <script src="./js/directives/designPictureDirective.js"></script>
+        <script src="./js/directives/clientComponent.js"></script>
     </body>
 </html>
