@@ -59,6 +59,7 @@
     justify-content: center;
     max-width: 1020px;
     margin: 0 auto;
+    margin-bottom: 80px;
     .project-box {
         margin: 0 1%;
         width: 20%;
@@ -120,7 +121,7 @@
             position: absolute;
             bottom: 20px;
             width: 100%;
-            padding: 10px;
+            padding: 10px 21px;
             min-height: 75px;
             opacity: 1;
             min-height: 147px;
@@ -307,6 +308,7 @@
     .project-row {
         .box1 {
             .project-info-container {
+                padding: 10px 35px;
                 .project-info-left {
                     p {
                         font-size: 1em;
