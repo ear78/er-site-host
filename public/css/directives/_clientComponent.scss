@@ -1,6 +1,6 @@
 
 .client-container {
-    margin-bottom: 60px;
+    margin-bottom: 5px;
     .client-titles {
         background: #010101;
         padding: 40px 10px;
@@ -34,7 +34,7 @@
     justify-content: space-around;
     max-width: 1020px;
     margin: 0 auto;
-    border-bottom: 1px solid lightgray;
+    // border-bottom: 1px solid lightgray;
     padding: 60px 0;
     .client-list {
         margin: 0px;
@@ -91,6 +91,7 @@
     }
 
     .client-container {
+        margin-bottom: 60px;
         .client-titles {
             padding: 60px 0;
         }

@@ -38,6 +38,13 @@ footer {
             font-family: $montserrat;
         }
     }
+    .er-page-bottom {
+        display: none;
+        width: 20px;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
     .to-top {
         width: 40px;
         height: 40px;
@@ -92,4 +99,14 @@ footer .social-icons a:hover {
 
 footer .site-map a:hover {
     color: $lightgray;
+}
+
+
+@media(min-width:600px){
+    footer {
+        .er-page-bottom {
+            display: block;
+        }
+    }
+
 }

@@ -245,7 +245,7 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 475px;
+  min-height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,11 +275,12 @@ h4 {
   flex-direction: column;
   align-items: center; }
   .contact-container .contact-line {
-    display: none;
+    display: block;
     width: 60%;
     height: 1px;
     background: lightgray;
-    margin-bottom: 55px; }
+    margin-bottom: 55px;
+    max-width: 1020px; }
   .contact-container .email-icon {
     margin-bottom: 15px; }
     .contact-container .email-icon img {
@@ -355,8 +356,6 @@ h4 {
   .summary-content {
     max-width: 650px;
     margin: 0 auto 80px; }
-  .contact-container .contact-line {
-    display: block; }
   .contact-container a {
     width: 400px; }
   .projects-container {
@@ -567,6 +566,12 @@ footer {
       font-size: .9em;
       transition: all .2s;
       font-family: "montserrat", sans-serif; }
+  footer .er-page-bottom {
+    display: none;
+    width: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px; }
   footer .to-top {
     width: 40px;
     height: 40px;
@@ -611,6 +616,10 @@ footer .social-icons a:hover {
 
 footer .site-map a:hover {
   color: #d3d3d3; }
+
+@media (min-width: 600px) {
+  footer .er-page-bottom {
+    display: block; } }
 
 .resume .logo-container {
   display: block;
@@ -1637,7 +1646,7 @@ footer .site-map a:hover {
     padding: 10px; } }
 
 .client-container {
-  margin-bottom: 60px; }
+  margin-bottom: 5px; }
   .client-container .client-titles {
     background: #010101;
     padding: 40px 10px; }
@@ -1665,7 +1674,6 @@ footer .site-map a:hover {
   justify-content: space-around;
   max-width: 1020px;
   margin: 0 auto;
-  border-bottom: 1px solid lightgray;
   padding: 60px 0; }
   .client-list-container-mobile .client-list {
     margin: 0px; }
@@ -1708,10 +1716,12 @@ footer .site-map a:hover {
         list-style-type: disc;
         font-style: italic;
         color: #fff; }
-  .client-container .client-titles {
-    padding: 60px 0; }
-  .client-container h2 {
-    margin-bottom: 20px; }
-  .client-container p {
-    display: block;
-    margin-bottom: 20px; } }
+  .client-container {
+    margin-bottom: 60px; }
+    .client-container .client-titles {
+      padding: 60px 0; }
+    .client-container h2 {
+      margin-bottom: 20px; }
+    .client-container p {
+      display: block;
+      margin-bottom: 20px; } }
