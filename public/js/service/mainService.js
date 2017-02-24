@@ -57,7 +57,7 @@ angular.module('myApp')
             tech: 'HTML, CSS, Affinity Designer'
         },
         {
-            img: 'aporcheddusite.jpg',
+            img: 'aporcheddusite2.jpg',
             details: 'column 1',
             name: 'Anthondy Porcheddu Site',
             tech: 'HTML, CSS, Affinity Designer'
