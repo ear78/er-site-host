@@ -1,1 +1,2 @@
 # er-site-host
+Rebuild and redesign by Elliot Richardson.  Built from the ground up with HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Affinity Designer/Photo. Hosted on Heroku.  Fully custom responsive design with no use of css frameworks. Image portfolio and design pages have dynamically loaded data which can easily be updated with the addition of a new object within the .json file.  All animations were hand built without the help of additional css libraries.
