@@ -28,7 +28,6 @@ angular.module('myApp', ['ngAnimate', 'ngRoute'])
     //
     //         $urlRouterProvider.otherwise('/home');
     // });
-
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider
             .when('/', {
