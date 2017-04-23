@@ -122,7 +122,7 @@ h4 {
 
 .fade.ng-enter {
   opacity: 0;
-  transition: opacity 1s ease; }
+  transition: opacity 2s ease; }
 
 .fade.ng-enter.ng-enter-active {
   opacity: 1; }
