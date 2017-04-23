@@ -37,8 +37,12 @@ $nunito: 'nunito', sans-serif;
 body {
     color: $black;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    line-height: 1.6;
 }
 
 li {
