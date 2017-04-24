@@ -239,10 +239,10 @@ h4 {
   .projects-container h4 {
     text-align: center;
     font-family: "montserrat", sans-serif;
-    font-size: 1.5em; }
+    font-size: 1.65em; }
   .projects-container .projects-para {
     max-width: 650px;
-    margin: 20px auto 70px;
+    margin: 20px auto 80px;
     text-align: center;
     padding: 0 10px; }
   .projects-container .projects-para:first-letter {
@@ -261,7 +261,7 @@ h4 {
   justify-content: center;
   flex-direction: column;
   color: #fff;
-  margin-bottom: 45px;
+  margin-bottom: 60px;
   transition: all .2s ease; }
   .projects-banner-image .logos {
     width: 95px; }
