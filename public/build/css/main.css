@@ -1737,3 +1737,19 @@ footer .site-map a:hover {
     .client-container p {
       display: block;
       margin-bottom: 20px; } }
+
+.image-modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 9999; }
+  .image-modal .image-container {
+    text-align: center;
+    margin-top: 15vh; }
+  .image-modal img {
+    width: 95%;
+    max-width: 475px; }
