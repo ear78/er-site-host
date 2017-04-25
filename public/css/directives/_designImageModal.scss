@@ -2,7 +2,7 @@
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,.85);
+    background: rgba(0,0,0,.91);
     top: 0;
     left: 0;
     overflow: hidden;
@@ -14,5 +14,14 @@
     img {
         width: 95%;
         max-width: 475px;
+    }
+    .design-modal-close {
+        color: white;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

@@ -1742,7 +1742,7 @@ footer .site-map a:hover {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.91);
   top: 0;
   left: 0;
   overflow: hidden;
@@ -1753,3 +1753,10 @@ footer .site-map a:hover {
   .image-modal img {
     width: 95%;
     max-width: 475px; }
+  .image-modal .design-modal-close {
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 15px; }
+    .image-modal .design-modal-close:hover {
+      cursor: pointer; }
