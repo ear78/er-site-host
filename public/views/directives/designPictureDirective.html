@@ -1,7 +1,7 @@
 <section class="design">
     <div class="picture-container">
         <div class="column column1">
-            <img ng-repeat="image in images | filter: 'column 1'" ng-src="./img/design/{{ image.img }}" />
+            <img ng-repeat="image in images | filter: 'column 1'" ng-src="./img/design/{{ image.img }}" ng-click="showModal()"/>
         </div>
         <div class="column column2">
             <img ng-repeat="image in images | filter: 'column 2'" ng-src="./img/design/{{ image.img }}" />
@@ -11,3 +11,6 @@
         </div>
     </div>
 </section>
+
+<!-- DESIGN PAGE IMAGE MODAL -->
+<design-image-modal ng-show="isImageShowing"></design-image-modal>

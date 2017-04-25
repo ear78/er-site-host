@@ -8,6 +8,11 @@ angular.module('myApp')
             },
             controller: function($scope, mainService){
                 $scope.images = mainService.images;
+
+                // IMAGE OPEN FUNCTION
+                $scope.imageOpen = function(image){
+                    
+                }
             },
             link: function(){
 
