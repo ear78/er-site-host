@@ -75,6 +75,12 @@
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            img: 'socdetoxmockup.jpg',
+            details: 'column 1',
+            name: 'Socdetox Site',
+            tech: 'Affinity Designer, HTML, CSS, Custom Squarespace Developer Platform, Json-T'
+        },
+        {
             img: 'gofanbasemockupgreen.jpg',
             details: 'column 1',
             name: 'Lyft Site Clone',
@@ -111,6 +117,12 @@
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            img: 'erichmockup.jpg',
+            details: 'column 2',
+            name: 'Elliot Richardson Mockup',
+            tech: 'Affinity Designer'
+        },
+        {
             img: 'earsiteicons.jpg',
             details: 'column 3',
             name: 'Lyft Site Clone',
@@ -118,6 +130,12 @@
         },
         {
             img: 'devmtnsurveymockup.jpg',
+            details: 'column 3',
+            name: 'Fade Into The West',
+            tech: 'Affinity Designer'
+        },
+        {
+            img: 'futureweb.jpg',
             details: 'column 3',
             name: 'Fade Into The West',
             tech: 'Affinity Designer'
