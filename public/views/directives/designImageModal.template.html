@@ -1,6 +1,10 @@
 <section class="image-modal">
     <i class="material-icons design-modal-close" ng-click="closeModal()">close</i>
     <div class="image-container">
-        <img ng-src="../../img/design/{{img}}" />
+        <img ng-src="../../img/design/{{ image }}" />
+        <div class="img-desc">
+            <p class="name"> {{ name }}</p>
+            <p> {{ tech }}</p>
+        </div>
     </div>
 </section>

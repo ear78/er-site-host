@@ -1,13 +1,13 @@
 <section class="design">
     <div class="picture-container">
         <div class="column column1">
-            <img ng-repeat="image in images | filter: 'column 1'" ng-src="./img/design/{{ image.img }}" ng-click="showModal(image.img)"/>
+            <img ng-repeat="image in images | filter: 'column 1'" ng-src="./img/design/{{ image.img }}" ng-click="showModal(image)"/>
         </div>
         <div class="column column2">
-            <img ng-repeat="image in images | filter: 'column 2'" ng-src="./img/design/{{ image.img }}" ng-click="showModal(image.img)"/>
+            <img ng-repeat="image in images | filter: 'column 2'" ng-src="./img/design/{{ image.img }}" ng-click="showModal(image)"/>
         </div>
         <div class="column column3">
-            <img ng-repeat="image in images | filter: 'column 3'" ng-src="./img/design/{{ image.img }}" ng-click="showModal(image.img)"/>
+            <img ng-repeat="image in images | filter: 'column 3'" ng-src="./img/design/{{ image.img }}" ng-click="showModal(image)"/>
         </div>
     </div>
 </section>

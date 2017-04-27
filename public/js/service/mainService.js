@@ -51,102 +51,119 @@
         //IMAGES FOR SLIDER AND DESIGN DIRECTIVE/////////////////////////////////
         /////////////////////////////////////////////////////////////
         this.images = [{
+            id: 0,
             img: 'aporcheddusite.jpg',
             details: 'column 1',
-            name: 'Anthondy Porcheddu Site',
+            name: 'Anthony Porcheddu Site',
             tech: 'HTML, CSS, Affinity Designer'
         },
         {
+            id: 1,
             img: 'aporcheddusite2.jpg',
             details: 'column 1',
-            name: 'Anthondy Porcheddu Site',
+            name: 'Anthony Porcheddu Site',
             tech: 'HTML, CSS, Affinity Designer'
         },
         {
+            id: 2,
             img: 'devmtnmockup.jpg',
             details: 'column 1',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Dev Mountain Internal App design',
+            tech: 'Affinity Designer'
         },
         {
+            id: 3,
             img: 'provolakeweb.jpg',
             details: 'column 1',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Elliot Richardson Poster',
+            tech: 'Affinity Designer'
         },
         {
+            id: 4,
             img: 'socdetoxmockup.jpg',
             details: 'column 1',
             name: 'Socdetox Site',
             tech: 'Affinity Designer, HTML, CSS, Custom Squarespace Developer Platform, Json-T'
         },
         {
+            id: 5,
             img: 'gofanbasemockupgreen.jpg',
             details: 'column 1',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            id: 6,
             img: 'exploretheair.jpg',
             details: 'column 1',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            id: 7,
             img: 'elliotpark.jpg',
             details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            id: 8,
             img: 'ersiteoldermockup.jpg',
             details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            id: 9,
             img: 'gofanbaseMockup.jpg',
             details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            id: 10,
             img: 'outdoorweb.jpg',
             details: 'column 2',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            id: 11,
             img: 'erichmockup.jpg',
             details: 'column 2',
             name: 'Elliot Richardson Mockup',
             tech: 'Affinity Designer'
         },
         {
+            id: 12,
             img: 'earsiteicons.jpg',
             details: 'column 3',
             name: 'Lyft Site Clone',
             tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
         },
         {
+            id: 13,
             img: 'devmtnsurveymockup.jpg',
             details: 'column 3',
             name: 'Fade Into The West',
             tech: 'Affinity Designer'
         },
         {
+            id: 14,
             img: 'futureweb.jpg',
             details: 'column 3',
             name: 'Fade Into The West',
             tech: 'Affinity Designer'
         },
         {
+            id: 15,
             img: 'draxemockup.jpg',
             details: 'column 3',
             name: 'Fade Into The West',
             tech: 'Affinity Designer'
         },
         {
+            id: 16,
             img: 'fadetowestmockup.jpg',
             details: 'column 3',
             name: 'Fade Into The West',
