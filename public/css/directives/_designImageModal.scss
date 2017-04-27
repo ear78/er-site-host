@@ -16,6 +16,9 @@
         margin-left: auto;
         margin-right: auto;
         position: relative;
+        &:hover {
+            cursor: pointer;
+        }
     }
     img {
         width: 100%;
@@ -30,7 +33,8 @@
         }
     }
     .img-desc {
-        visibility: hidden;
+        // visibility: hidden;
+        opacity: 0;
         background: black;
         width: 100%;
         min-height: 25px;
@@ -39,6 +43,7 @@
         bottom: 0;
         left: 0;
         padding: 20px 15px;
+        transition: all .2s ease;
         .name {
             text-transform: uppercase;
             font-size: 1.25em;
@@ -47,5 +52,8 @@
         p {
             color: gray;
         }
+    }
+    .img-desc-active {
+        opacity: 1;
     }
 }
