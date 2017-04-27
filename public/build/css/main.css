@@ -1745,17 +1745,13 @@ footer .site-map a:hover {
   background: rgba(0, 0, 0, 0.85);
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: scroll;
   z-index: 9999; }
   .image-modal .image-container {
-    margin-top: 15vh;
-    overflow-y: scroll;
-    max-height: 600px;
     width: 75%;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative; }
+    max-width: 775px;
+    position: relative;
+    margin: 15vh auto; }
     .image-modal .image-container:hover {
       cursor: pointer; }
   .image-modal img {
@@ -1780,9 +1776,18 @@ footer .site-map a:hover {
     transition: all .2s ease; }
     .image-modal .img-desc .name {
       text-transform: uppercase;
-      font-size: 1.25em;
-      color: #fff; }
+      font-size: 1.125em;
+      font-family: "montserrat", sans-serif;
+      color: #fff;
+      font-style: normal; }
     .image-modal .img-desc p {
-      color: gray; }
+      color: gray;
+      font-size: .9em;
+      font-style: italic; }
+  .image-modal .right img {
+    width: 32px;
+    position: absolute;
+    right: 15px;
+    top: 20px; }
   .image-modal .img-desc-active {
     opacity: 1; }
