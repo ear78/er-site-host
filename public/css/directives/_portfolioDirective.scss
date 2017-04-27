@@ -271,14 +271,14 @@
 
 .portfolio-box {
     text-align: center;
-    padding-top: 15px;
-    background: white;
-    width: 725px;
-    max-width: 90%;
-    margin: 40px auto 20px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    width: 85%;
+    max-width: 685px;
+    background: $white;
+    margin: 60px auto 10px;
+    padding-bottom: 20px;
     transition: margin .2s;
-    border-radius: 3px;
+    border-radius: 2px;
     img {
         box-shadow: 0px 0px 10px rgba(0,0,0,.3);
         width: 400px;

@@ -55,14 +55,14 @@
             img: 'aporcheddusite.jpg',
             details: 'column 1',
             name: 'Anthony Porcheddu Site',
-            tech: 'HTML, CSS, Affinity Designer'
+            tech: 'Affinity Designer'
         },
         {
             id: 1,
             img: 'aporcheddusite2.jpg',
             details: 'column 1',
             name: 'Anthony Porcheddu Site',
-            tech: 'HTML, CSS, Affinity Designer'
+            tech: 'Affinity Designer'
         },
         {
             id: 2,
@@ -89,43 +89,43 @@
             id: 5,
             img: 'gofanbasemockupgreen.jpg',
             details: 'column 1',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Go Fan Base Test Mockup',
+            tech: 'HTML, CSS, Bootstrap, Affinity Designer'
         },
         {
             id: 6,
             img: 'exploretheair.jpg',
             details: 'column 1',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Explore The Air',
+            tech: 'Affinity Designer, HTML, CSS, Javascript, React, Webpack'
         },
         {
             id: 7,
             img: 'elliotpark.jpg',
             details: 'column 2',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Elliot Richardson Poster',
+            tech: 'Affinity Designer'
         },
         {
             id: 8,
             img: 'ersiteoldermockup.jpg',
             details: 'column 2',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Site Mockup',
+            tech: 'Affinity Designer'
         },
         {
             id: 9,
             img: 'gofanbaseMockup.jpg',
             details: 'column 2',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Go Fan Base Mockup',
+            tech: 'Affinity Designer, Bootstrap, HTML, CSS'
         },
         {
             id: 10,
             img: 'outdoorweb.jpg',
             details: 'column 2',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Outdoor Graphic Design',
+            tech: 'Affinity Designer'
         },
         {
             id: 11,
@@ -138,35 +138,35 @@
             id: 12,
             img: 'earsiteicons.jpg',
             details: 'column 3',
-            name: 'Lyft Site Clone',
-            tech: 'HTML, CSS, Javascript, Jquery, Angular, Gulp, Sass, Node.js'
+            name: 'Icon Design',
+            tech: 'Affinity Designer'
         },
         {
             id: 13,
             img: 'devmtnsurveymockup.jpg',
             details: 'column 3',
-            name: 'Fade Into The West',
+            name: 'Dev Mountain Survey Mockup',
             tech: 'Affinity Designer'
         },
         {
             id: 14,
             img: 'futureweb.jpg',
             details: 'column 3',
-            name: 'Fade Into The West',
+            name: 'Future Site Design',
             tech: 'Affinity Designer'
         },
         {
             id: 15,
             img: 'draxemockup.jpg',
             details: 'column 3',
-            name: 'Fade Into The West',
+            name: 'Dr. Axe Mockup',
             tech: 'Affinity Designer'
         },
         {
             id: 16,
             img: 'fadetowestmockup.jpg',
             details: 'column 3',
-            name: 'Fade Into The West',
+            name: 'Fade Into The West Design',
             tech: 'Affinity Designer'
         } ]
 
