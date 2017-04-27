@@ -8,12 +8,20 @@
     overflow: hidden;
     z-index: 9999;
     .image-container {
-        text-align: center;
         margin-top: 15vh;
+        overflow-y: scroll;
+        max-height: 600px;
+        width: 75%;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        &:hover {
+            cursor: pointer;
+        }
     }
     img {
-        width: 95%;
-        max-width: 530px;
+        width: 100%;
     }
     .design-modal-close {
         color: white;
@@ -23,5 +31,29 @@
         &:hover {
             cursor: pointer;
         }
+    }
+    .img-desc {
+        // visibility: hidden;
+        opacity: 0;
+        background: black;
+        width: 100%;
+        min-height: 25px;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px 15px;
+        transition: all .2s ease;
+        .name {
+            text-transform: uppercase;
+            font-size: 1.25em;
+            color: $white;
+        }
+        p {
+            color: gray;
+        }
+    }
+    .img-desc-active {
+        opacity: 1;
     }
 }

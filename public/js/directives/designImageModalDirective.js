@@ -7,9 +7,12 @@ angular.module('myApp')
                 $scope.isImageShowing = false;
                 $scope.images = mainService.images;
 
-                $scope.showModal = function(img){
+                $scope.showModal = function(image){
+                    console.log(image);
                     $scope.isImageShowing = !$scope.isImageShowing;
-                    $scope.img = img;
+                    $scope.image = image.img;
+                    $scope.name = image.name;
+                    $scope.tech = image.tech;
                 }
 
                 $scope.closeModal = function(){
