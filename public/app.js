@@ -1,34 +1,6 @@
 
 angular.module('myApp', ['ngAnimate', 'ngRoute'])
 
-    // .config(function($stateProvider, $urlRouterProvider){
-    //
-    //
-    //     $stateProvider
-    //         .state('home', {
-    //             url: '/home',
-    //             templateUrl: '../views/home.html',
-    //         })
-    //         .state('about', {
-    //             url: '/about',
-    //             templateUrl: '../views/about.html',
-    //         })
-    //         .state('resume', {
-    //             url: '/resume',
-    //             templateUrl: '../views/resume.html',
-    //         })
-    //         .state('design', {
-    //             url: '/design',
-    //             templateUrl: '../views/design.html',
-    //         })
-    //         .state('contact', {
-    //             url: '/contact',
-    //             templateUrl: '../views/contact.html',
-    //         })
-    //
-    //         $urlRouterProvider.otherwise('/home');
-    // });
-
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider
             .when('/', {

@@ -8,6 +8,7 @@ angular.module('myApp')
             },
             controller: function($scope, mainService){
                 $scope.images = mainService.images;
+
             },
             link: function(){
 
