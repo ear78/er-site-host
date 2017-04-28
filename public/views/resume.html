@@ -8,9 +8,10 @@
     </div>
 
     <section class="section-wrap">
-        <h3 class="section-titles">Skills</h3>
+        <h3 class="section-titles">{{ resumes[0].sectionTitle }}</h3>
         <ul class="skills-list margin-bottom-mid">
-            <li>- HTML</li>
+            <li ng-repeat="resume in resumes">{{ resumes[0].skills[$index] }}</li>
+            <!-- <li>- HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
             <li>Angular</li>
@@ -21,7 +22,7 @@
             <li>Jquery</li>
             <li>Bootstrap</li>
             <li>Wordpress</li>
-            <li>SQL -</li>
+            <li>SQL -</li> -->
         </ul>
 
         <h3 class="section-titles">Front End Web Developer/Web Designer</h3>

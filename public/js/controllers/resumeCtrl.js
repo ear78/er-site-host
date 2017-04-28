@@ -1,4 +1,5 @@
 angular.module('myApp')
-    .controller('resumeCtrl', function($scope){
-        
+    .controller('resumeCtrl', function($scope, mainService){
+        $scope.resumes = mainService.resumes;
+
     })
