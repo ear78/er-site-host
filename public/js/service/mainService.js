@@ -170,4 +170,35 @@
             tech: 'Affinity Designer'
         } ]
 
-    })
+
+
+//// RESUME PAGE DATA /////////////////////////////////
+    this.resumes = [
+        {
+            sectionTitle: 'Skills',
+            skills: ['HTML', 'CSS', 'Javascript', 'Angular', 'Node.js', 'React', 'Gulp', 'Sass', 'Jquery', 'Bootstrap', 'Wordpress', 'SQL']
+        },
+        {
+            sectionTitle: 'Front End Web Developer/Web Designer',
+            jobTitle: 'Front End Developer 2015 - Present',
+            jobList: ['Experience with HTML,CSS,Javascript,Jquery, Angular, React, Node.js, Gulp, Sass, Bootstrap, Wordpress, Git to build interactive websites', 'Experience with responsive design using media queries, Css, Bootstrap, and fluid grid systems', 'Experience with CMS systems, Wordpress, Squarespace, Go Daddy site builder', 'Experience with Affinity Photo/Designer, Pixelmator, Sketch, Adobe', 'Able to translate PSD mockups using HTML,CSS,Javascript with a keen eye for design']
+        },
+        {
+            sectionTitle: 'Apple',
+            jobTitle: 'Tech Support 2015 - Present',
+            jobList: ['Troubleshooting iOS devices and personal Macintosh computers', 'Handle both software and hardware technical support', 'Systematic diagnosis and documentation of all services', 'Provided Teamwork and leadership of my technical team', 'Excellent composure in high stress situations, always aiming to align and assure all of my customers', 'World class customer service, ensuring each customer has a great experience with Apple\'s in store tech support']
+        },
+        {
+            sectionTitle: 'Projects',
+            jobTitle: 'Current Projects',
+            jobList: ['Future Custom Wordpress Template', 'Built from the ground up using HTML, CSS, Javascript, Wordpress, Php', 'Redesign and Build of Elliot Richardson.com', 'Built from the ground up using Angular, HTML, CSS, Javascript, Jquery, Gulp, Sass, Node.js, NPM', 'Lyft Website Clone', 'Built from the ground up as a group project for school using React, HTML, CSS, Javascript, Jquery, Webpack, Bootstrap, Node.js, SQL']
+        },
+        {
+            sectionTitle: 'Education',
+            jobTitle: 'Current Education',
+            jobList: ['Bachelor of Arts in Music, 2005, California State University of Fullerton', 'Dev Mountain 2016 Full Stack Web Development Program']
+        }
+    ]
+
+
+}); // end of service function
