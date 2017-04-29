@@ -175,7 +175,7 @@
 //// RESUME PAGE DATA /////////////////////////////////
 
     this.resumes = [
-        
+
         {
             sectionTitle: 'Front End Web Developer/Web Designer',
             jobTitle: 'Front End Developer 2015 - Present',
@@ -189,7 +189,7 @@
         {
             sectionTitle: 'Projects',
             jobTitle: 'Current Projects',
-            jobList: ['Future Custom Wordpress Template', 'Built from the ground up using HTML, CSS, Javascript, Wordpress, Php', 'Redesign and Build of Elliot Richardson.com', 'Built from the ground up using Angular, HTML, CSS, Javascript, Jquery, Gulp, Sass, Node.js, NPM', 'Lyft Website Clone', 'Built from the ground up as a group project for school using React, HTML, CSS, Javascript, Jquery, Webpack, Bootstrap, Node.js, SQL']
+            jobList: ['Konsumer(E-Commerce) - Designed and built from the ground up with Angular, HTML, CSS, Javascript, Jquery, Node.js, NPM, Gulp, Sass, Affinity Designer', 'Explore The Air(ETA) - Designed and built from the ground up with React, HTML, CSS, Javascript, WebPack, Affinity Designer', 'Future Custom Wordpress Template - Built from the ground up using HTML, CSS, Javascript, Wordpress, Php', 'Redesign and Build of Elliot Richardson.com - Built from the ground up using Angular, HTML, CSS, Javascript, Jquery, Gulp, Sass, Node.js, NPM', 'Lyft Website Clone - Built from the ground up as a group project for school using React, HTML, CSS, Javascript, Jquery, Webpack, Bootstrap, Node.js, SQL']
         },
         {
             sectionTitle: 'Education',
