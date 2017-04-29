@@ -173,11 +173,9 @@
 
 
 //// RESUME PAGE DATA /////////////////////////////////
+
     this.resumes = [
-        {
-            sectionTitle: 'Skills',
-            skills: ['HTML', 'CSS', 'Javascript', 'Angular', 'Node.js', 'React', 'Gulp', 'Sass', 'Jquery', 'Bootstrap', 'Wordpress', 'SQL']
-        },
+        
         {
             sectionTitle: 'Front End Web Developer/Web Designer',
             jobTitle: 'Front End Developer 2015 - Present',
