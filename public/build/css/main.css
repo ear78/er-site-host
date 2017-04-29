@@ -249,7 +249,7 @@ h4 {
     font-size: 2em;
     line-height: 1; }
   .projects-container .design-button {
-    background: #262626;
+    background: #101010;
     width: 200px;
     height: 50px;
     color: #fff;
@@ -672,7 +672,7 @@ footer .site-map a:hover {
   color: #fff;
   font-size: .75em;
   text-transform: uppercase;
-  width: 140px;
+  width: 160px;
   display: inline-block;
   margin: 80px auto;
   letter-spacing: 2px;
