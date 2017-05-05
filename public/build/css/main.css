@@ -1375,7 +1375,8 @@ footer .site-map a:hover {
     position: relative;
     width: 85%;
     margin: 0 auto;
-    max-width: 685px; }
+    max-width: 685px;
+    padding-left: 5px; }
     .portfolio-modal .portfolio-desc img {
       width: 35px;
       position: absolute;
@@ -1385,14 +1386,11 @@ footer .site-map a:hover {
     color: white;
     font-family: montserrat;
     text-transform: uppercase;
-    font-size: 1.25em;
-    text-align: center; }
+    font-size: 1.25em; }
   .portfolio-modal .portfolio-text {
-    color: white;
-    width: 60%;
+    color: gray;
+    width: 75%;
     max-width: 775px;
-    margin: 0 auto;
-    text-align: center;
     font-size: .9em; }
   .portfolio-modal .arrow-left {
     position: absolute;
