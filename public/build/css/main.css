@@ -1370,6 +1370,17 @@ footer .site-map a:hover {
   background-color: rgba(0, 0, 0, 0.9);
   overflow: hidden;
   z-index: 10; }
+  .portfolio-modal .portfolio-desc {
+    min-height: 115px;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 685px; }
+    .portfolio-modal .portfolio-desc img {
+      width: 35px;
+      position: absolute;
+      top: 3px;
+      right: 5px; }
   .portfolio-modal .tech-used {
     color: white;
     font-family: montserrat;

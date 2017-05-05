@@ -38,16 +38,17 @@
              </div>
              <div class="portfolio-modal" portfolio-modal-directive>
                 <img portfolio-modal-directive class="close-menu" ng-src="img/closebuttonwhite.svg"/>
-                <!-- <img class="arrow-left" ng-src="./img/arrowleft.svg"/>
-                <img class="arrow-right" ng-src="./img/arrowright.svg"/> -->
                 <div class="portfolio-box">
                     <img ng-src='{{ data.images[0] }}' />
                     <img ng-src='{{ data.images[1] }}' />
                     <img ng-src='{{ data.images[2] }}' />
                     <img ng-src='{{ data.images[3] }}' />
                 </div>
-                <h3 class="tech-used">Technologies Used</h3>
-                <p class="portfolio-text">{{ data.text }}</p>
+                <div class="portfolio-desc">
+                    <img ng-src="../../img/earlogo2white.svg" alt="">
+                    <h3 class="tech-used">Technologies Used</h3>
+                    <p class="portfolio-text">{{ data.text }}</p>
+                </div>
              </div>
         </div>
     </div>
